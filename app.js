@@ -1,6 +1,15 @@
 // World Literacy Atlas — shared client. Detects page by element presence.
 const DATA_URL = "data/geography.json";
 
+// theme: auto (OS) / light / dark — applied immediately so there's no flash
+const THEME_KEY = "wl-theme";
+function applyTheme(t) {
+  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+  else delete document.documentElement.dataset.theme;
+  document.dispatchEvent(new Event("wl-theme"));  // canvas views re-read colours
+}
+applyTheme(localStorage.getItem(THEME_KEY) || "auto");
+
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => (
   { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const byIso = {};
@@ -253,9 +262,10 @@ function buildGlobe(data) {
   if (!canvas || typeof d3 === "undefined" || typeof topojson === "undefined")
     return { zoomBy() {}, reset() {}, resize() {} };
   const ctx = canvas.getContext("2d");
-  const cs = getComputedStyle(document.body);
-  const cv = (n, f) => cs.getPropertyValue(n).trim() || f;
-  const C = { ocean: cv("--globe-ocean", "#18202b"), land: cv("--map-land", "#34343d"), line: cv("--line", "#2e2e36"), accent: cv("--accent", "#8fb4d6") };
+  const cv = (n, f) => getComputedStyle(document.body).getPropertyValue(n).trim() || f;
+  const readColors = () => ({ ocean: cv("--globe-ocean", "#18202b"), land: cv("--map-land", "#34343d"), line: cv("--line", "#2e2e36"), accent: cv("--accent", "#8fb4d6"), ink: cv("--ink", "#e8ebf0") });
+  let C = readColors();
+  document.addEventListener("wl-theme", () => { C = readColors(); draw(); });
   const nameToIso = {}; data.countries.forEach(c => nameToIso[c.country] = c.iso2);
   const tip = mapTip();
 
@@ -280,7 +290,7 @@ function buildGlobe(data) {
       ctx.strokeStyle = "#e4572e"; ctx.lineWidth = 2; ctx.stroke();
       ctx.beginPath(); ctx.arc(px, py, 2.6, 0, 2 * Math.PI);
       ctx.fillStyle = "#e4572e"; ctx.fill();
-      ctx.font = "600 10.5px sans-serif"; ctx.fillStyle = cv("--ink", "#e8ebf0");
+      ctx.font = "600 10.5px sans-serif"; ctx.fillStyle = C.ink;
       ctx.strokeStyle = C.ocean; ctx.lineWidth = 3; ctx.lineJoin = "round";
       ctx.strokeText(cp.n, px + 10, py + 3.5); ctx.fillText(cp.n, px + 10, py + 3.5);
     }
@@ -361,8 +371,9 @@ function buildGlobe(data) {
 
 /* ---------- map view coordinator (Flat | Globe + zoom buttons) ---------- */
 function setupMaps(data) {
-  const flat = buildFlatMap(data);
-  let globe = null, view = "flat";
+  // both maps build lazily — the globe is the default, so the 1.3 MB flat-map
+  // SVG is only fetched if the user actually switches to Flat
+  let flat = null, globe = null, view = "flat";
   const viewToggle = document.getElementById("mapView");
   const zoomCtl = document.getElementById("mapZoom");
   const active = () => (view === "globe" ? globe : flat);
@@ -372,6 +383,7 @@ function setupMaps(data) {
     document.getElementById("worldmap").hidden = view !== "flat";
     document.getElementById("globe").hidden = view !== "globe";
     if (view === "globe") { if (!globe) globe = buildGlobe(data); else globe.resize(); }
+    else if (!flat) flat = buildFlatMap(data);
   }
   if (viewToggle) viewToggle.addEventListener("click", (e) => {
     const b = e.target.closest("button"); if (!b) return;
@@ -405,7 +417,7 @@ function setupMaps(data) {
             `<span class="shade-lbl">high · grey = no data</span>`;
         }
       } else if (legendEl && legendOrig !== null) legendEl.innerHTML = legendOrig;
-      flat.recolor();
+      if (flat) flat.recolor();
       if (globe) globe.redraw();
     });
     ck.addEventListener("click", () => {
@@ -671,6 +683,16 @@ async function initCountry() {
     </dl>
     <div id="insystem"></div>
     <a class="back" href="index.html">← Back to atlas</a>`;
+
+  // upgrade the lead paragraph with the full Factbook background (kept out of
+  // geography.json for weight — fetched only here, where it's read)
+  (async () => {
+    try {
+      const bgs = await (await fetch("data/backgrounds.json")).json();
+      const full = bgs[c.iso2], leadEl = el.querySelector(".lead");
+      if (full && leadEl) leadEl.textContent = full;
+    } catch {}
+  })();
 
   // "In this system" — the link layer: everything the corpus knows about this
   // country (its people, its events, every card across the fields that touches it).
@@ -1353,9 +1375,69 @@ function initSearch() {
   });
 }
 
+/* ---------- app feel: mobile tab bar, prefetch, theme toggle ---------- */
+function initMobileNav() {
+  const bar = document.createElement("nav");
+  bar.id = "tabbar";
+  const items = [
+    ["index.html", "◍", "Atlas"], ["fields.html?f=History", "⌛", "History"],
+    ["fields.html?f=People", "☺", "People"], ["fields.html?f=Threads", "☰", "Threads"],
+    ["explore.html", "◫", "Explore"],
+  ];
+  const here = location.pathname.split("/").pop() + location.search;
+  bar.innerHTML = items.map(([h, ic, l]) =>
+    `<a href="${h}"${here.startsWith(h.split("?")[0]) && (h.indexOf("?") < 0 || here.includes(h.split("?")[1])) ? ' class="active"' : ""}><span class="ti">${ic}</span><span>${l}</span></a>`).join("")
+    + `<a href="#" id="tabsearch"><span class="ti">⌕</span><span>Search</span></a>`;
+  document.body.append(bar);
+  bar.querySelector("#tabsearch").addEventListener("click", (e) => {
+    e.preventDefault();
+    const b = document.getElementById("osbtn"); if (b) b.click();
+  });
+}
+
+function initPrefetch() {
+  // Speculation Rules where supported (Chrome), hover <link rel=prefetch> elsewhere
+  try {
+    const s = document.createElement("script");
+    s.type = "speculationrules";
+    s.textContent = JSON.stringify({ prefetch: [{ where: { href_matches: "/*" }, eagerness: "moderate" }] });
+    document.head.append(s);
+  } catch {}
+  const seen = new Set();
+  document.addEventListener("mouseover", (e) => {
+    const a = e.target.closest("a[href]");
+    if (!a || a.origin !== location.origin || a.href === location.href || seen.has(a.href)) return;
+    seen.add(a.href);
+    const l = document.createElement("link");
+    l.rel = "prefetch"; l.href = a.href;
+    document.head.append(l);
+  });
+}
+
+function initThemeToggle() {
+  const nav = document.querySelector("nav.fields");
+  if (!nav) return;
+  const btn = document.createElement("a");
+  btn.href = "#"; btn.id = "themeBtn";
+  const icons = { auto: "◐", light: "☀", dark: "☾" };
+  let mode = localStorage.getItem(THEME_KEY) || "auto";
+  const paint = () => { btn.textContent = icons[mode]; btn.title = `Theme: ${mode}`; };
+  paint();
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    mode = mode === "auto" ? "dark" : mode === "dark" ? "light" : "auto";
+    localStorage.setItem(THEME_KEY, mode);
+    applyTheme(mode); paint();
+  });
+  nav.appendChild(btn);
+}
+
 if (document.getElementById("grid")) initIndex();
 else if (document.getElementById("detail")) initCountry();
 else if (document.getElementById("person")) initPerson();
 else if (document.getElementById("dtable")) initExplore();
 else if (document.getElementById("cards")) initFields();
 initSearch();
+initThemeToggle();
+initMobileNav();
+initPrefetch();

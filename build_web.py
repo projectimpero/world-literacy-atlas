@@ -90,11 +90,10 @@ CARD_FIELDS = [
 
 def build_geography():
     DATA.mkdir(exist_ok=True)
-    # Full country descriptions fetched by enrich_backgrounds.py (the deck
-    # generator truncates them to ~320 chars). Optional — merged when present.
-    bg_path = DATA / "backgrounds.json"
-    backgrounds = json.loads(bg_path.read_text(encoding="utf-8")) if bg_path.exists() else {}
-
+    # NOTE: full country descriptions (enrich_backgrounds.py -> backgrounds.json)
+    # are NO LONGER merged in here — geography.json is loaded by every page, and
+    # the full texts tripled its weight. The country page fetches
+    # backgrounds.json on its own and upgrades the lead paragraph client-side.
     countries = []
     files = sorted(DECKS.glob("*_preview.json"))
     if not files:
@@ -106,9 +105,6 @@ def build_geography():
             # Flag via CDN (matches the flagcdn.com source already used in the
             # Obsidian notes), so the site needs no local image assets.
             r["flag_url"] = f"https://flagcdn.com/w320/{iso}.png" if iso else ""
-            full = backgrounds.get(r.get("iso2", ""))
-            if full:  # prefer the complete description over the truncated one
-                r["background"] = full
             countries.append(r)
     countries.sort(key=lambda c: c.get("country", ""))
 
