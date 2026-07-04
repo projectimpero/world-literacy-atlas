@@ -1,5 +1,14 @@
 # World Literacy — Web (Atlas)
 
+**Live at https://projectimpero.github.io/world-literacy-atlas/** — this folder
+is a git repo deployed via GitHub Pages (repo `projectimpero/world-literacy-atlas`,
+branch `main`, static, no build step). To publish updates after regenerating data:
+
+```
+git add -A && git commit -m "update data" && git push
+```
+
+
 A browsable, interactive **atlas** rendering of World Literacy — a third output
 alongside the Anki decks and the Obsidian notes. Same canonical data, new
 renderer. No accounts, no backend, no build toolchain beyond Python.
