@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Literacy — Fields</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html" style="color:inherit">World Literacy</a></div>
+    <nav class="fields" id="nav">
+      <a href="index.html">Atlas</a>
+      <a href="fields.html?f=History">History</a>
+      <a href="fields.html?f=People">People</a>
+      <a href="fields.html?f=Economics">Economics</a>
+      <a href="fields.html?f=Geopolitics">Geopolitics</a>
+      <a href="fields.html?f=Threads">Threads</a>
+      <a href="explore.html">Explore</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="fieldhead"></div>
+  <div class="timeline" id="timeline" hidden></div>
+  <div class="controls" id="cardControls">
+    <input type="search" id="q" placeholder="Search…" autocomplete="off">
+    <span class="count" id="count"></span>
+  </div>
+  <div class="secchips" id="secchips"></div>
+  <div class="cards" id="cards"><div class="empty">Loading…</div></div>
+</main>
+
+<footer class="site"><div class="wrap" id="foot">
+  The same cards as the Anki decks — here to browse, not drill.
+</div></footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Literacy — Explore</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html" style="color:inherit">World Literacy</a></div>
+    <nav class="fields">
+      <a href="index.html">Atlas</a>
+      <a href="fields.html?f=History">History</a>
+      <a href="fields.html?f=People">People</a>
+      <a href="fields.html?f=Economics">Economics</a>
+      <a href="fields.html?f=Geopolitics">Geopolitics</a>
+      <a href="fields.html?f=Threads">Threads</a>
+      <a href="explore.html" class="active">Explore</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="fieldhead"><div class="fh" style="--fc:#5B8C9E">
+    <h1>Explore</h1>
+    <p>Every country as data — the Gapminder view, and the full table underneath.</p>
+  </div></div>
+
+  <h2 class="section-title">Wealth × people</h2>
+  <p class="section-sub">GDP per capita (log) against population (log); bubble size is area, colour is region. Click a bubble to open the country.</p>
+  <div id="scatter" class="scatter"><div class="empty">Loading…</div></div>
+
+  <h2 class="section-title">The full table</h2>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Filter countries…" autocomplete="off">
+    <select id="region"><option value="">All regions</option></select>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="tablewrap"><table id="dtable"></table></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  Source: CIA World Factbook Archive + World Bank — the same data as the decks.
+</div></footer>
+<script src="app.js"></script>
+</body>
+</html>

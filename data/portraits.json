@@ -1,0 +1,698 @@
+{
+"Hammurabi": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg/330px-F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg",
+"url": "https://en.wikipedia.org/wiki/Hammurabi"
+},
+"Cyrus the Great": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cyrus_II_%28The_Great%29_%28cropped%29.jpg/330px-Cyrus_II_%28The_Great%29_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Cyrus_the_Great"
+},
+"Ashoka": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg/330px-Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg",
+"url": "https://en.wikipedia.org/wiki/Ashoka"
+},
+"Qin Shi Huang": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/330px-QinShiHuang19century.jpg",
+"url": "https://en.wikipedia.org/wiki/Qin_Shi_Huang"
+},
+"Alexander the Great": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+},
+"Julius Caesar": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/330px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Julius_Caesar"
+},
+"Augustus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Augustus_of_Prima_Porta.jpg/330px-Augustus_of_Prima_Porta.jpg",
+"url": "https://en.wikipedia.org/wiki/Augustus"
+},
+"Cleopatra": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+"url": "https://en.wikipedia.org/wiki/Cleopatra"
+},
+"Constantine the Great": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Statua_di_Costantino_ai_musei_capitolini.jpg/330px-Statua_di_Costantino_ai_musei_capitolini.jpg",
+"url": "https://en.wikipedia.org/wiki/Constantine_the_Great"
+},
+"Charlemagne": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Charlemagne_denier_Mayence_812_814.jpg/330px-Charlemagne_denier_Mayence_812_814.jpg",
+"url": "https://en.wikipedia.org/wiki/Charlemagne"
+},
+"Genghis Khan": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg",
+"url": "https://en.wikipedia.org/wiki/Genghis_Khan"
+},
+"Kublai Khan": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/YuanEmperorAlbumKhubilaiPortrait.jpg/330px-YuanEmperorAlbumKhubilaiPortrait.jpg",
+"url": "https://en.wikipedia.org/wiki/Kublai_Khan"
+},
+"Mansa Musa": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg/330px-Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+},
+"Saladin": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Al-Nasir_I_Salah_al-Din_Yusuf_%28Saladin%29._AH_564-589_%281169-1193_CE%29_%C3%86_Dirham_%2830.1mm%2C_13.28_g%2C_6h%29._Without_mint-name._Dated_AH_586_%28AD_1190-91%29._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_%28obverse%29.jpg/330px-thumbnail.jpg",
+"url": "https://en.wikipedia.org/wiki/Saladin"
+},
+"Suleiman the Magnificent": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EmperorSuleiman.jpg/330px-EmperorSuleiman.jpg",
+"url": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent"
+},
+"Akbar the Great": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Govardhan._Akbar_With_Lion_and_Calf_ca._1630%2C_Metmuseum_%28cropped%29.jpg/330px-Govardhan._Akbar_With_Lion_and_Calf_ca._1630%2C_Metmuseum_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Akbar"
+},
+"Elizabeth I": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/330px-Darnley_stage_3.jpg",
+"url": "https://en.wikipedia.org/wiki/Elizabeth_I"
+},
+"Louis XIV": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/330px-Louis_XIV_of_France.jpg",
+"url": "https://en.wikipedia.org/wiki/Louis_XIV"
+},
+"Peter the Great": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg/330px-Inconnu_d%27apr%C3%A8s_J.-M._Nattier%2C_Portrait_de_Pierre_Ier_%28mus%C3%A9e_de_l%E2%80%99Ermitage%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Peter_the_Great"
+},
+"Catherine the Great": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg/330px-Catherine_II_after_Roslin%2C_Rokotov_%281780s%2C_Kunsthistorisches_Museum%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Catherine_the_Great"
+},
+"Napoleon Bonaparte": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/330px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+"url": "https://en.wikipedia.org/wiki/Napoleon"
+},
+"Otto von Bismarck": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Otto_von_Bismarck_1885_%28cropped%29.jpg/330px-Otto_von_Bismarck_1885_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+},
+"Abraham Lincoln": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+},
+"Queen Victoria": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/330px-Queen_Victoria_by_Bassano.jpg",
+"url": "https://en.wikipedia.org/wiki/Queen_Victoria"
+},
+"Mustafa Kemal Atatürk": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Portret_van_de_Turkse_leider_Mustafa_Kemal_Ataturk_%28Atat%C3%BCrk_Kemal_Pascha%29_%281881-1938%29_in_westers%2C_SFA003017837.jpg/330px-Portret_van_de_Turkse_leider_Mustafa_Kemal_Ataturk_%28Atat%C3%BCrk_Kemal_Pascha%29_%281881-1938%29_in_westers%2C_SFA003017837.jpg",
+"url": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+},
+"George Washington": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+"url": "https://en.wikipedia.org/wiki/George_Washington"
+},
+"Toussaint Louverture": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Toussaint_Louverture_-_Girardin.jpg/330px-Toussaint_Louverture_-_Girardin.jpg",
+"url": "https://en.wikipedia.org/wiki/Toussaint_Louverture"
+},
+"Simón Bolívar": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png/330px-Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png",
+"url": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar"
+},
+"Giuseppe Garibaldi": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Garibaldi_%281866%29.jpg/330px-Garibaldi_%281866%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi"
+},
+"Sun Yat-sen": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg/330px-%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg",
+"url": "https://en.wikipedia.org/wiki/Sun_Yat-sen"
+},
+"Vladimir Lenin": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Lenin_in_1920_%28cropped%29.jpg/330px-Lenin_in_1920_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Vladimir_Lenin"
+},
+"Mahatma Gandhi": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/330px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+"url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+},
+"Mao Zedong": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mao_Zedong_1950_Portrait_%283x4_cropped%29%282%29.jpg/330px-Mao_Zedong_1950_Portrait_%283x4_cropped%29%282%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Mao_Zedong"
+},
+"Ho Chi Minh": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Ho_Chi_Minh_-_1946_Portrait_%28cropped%29.jpg/330px-Ho_Chi_Minh_-_1946_Portrait_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh"
+},
+"Kwame Nkrumah": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kwame_Nkrumah_Portrait%2C_The_National_Archives_UK.jpg/330px-Kwame_Nkrumah_Portrait%2C_The_National_Archives_UK.jpg",
+"url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah"
+},
+"Gamal Abdel Nasser": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Stevan_Kragujevic%2C_Gamal_Abdel_Naser_u_Beogradu%2C_1962.jpg/330px-Stevan_Kragujevic%2C_Gamal_Abdel_Naser_u_Beogradu%2C_1962.jpg",
+"url": "https://en.wikipedia.org/wiki/Gamal_Abdel_Nasser"
+},
+"Fidel Castro": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fidel_Castro_1950s.jpg/330px-Fidel_Castro_1950s.jpg",
+"url": "https://en.wikipedia.org/wiki/Fidel_Castro"
+},
+"Che Guevara": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg/330px-Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+"url": "https://en.wikipedia.org/wiki/Che_Guevara"
+},
+"Ayatollah Khomeini": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ruhollah_Khomeini_by_Jamaran_1.jpg/330px-Ruhollah_Khomeini_by_Jamaran_1.jpg",
+"url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
+},
+"Nelson Mandela": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/330px-Nelson_Mandela_1994.jpg",
+"url": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+},
+"Martin Luther King Jr.": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Martin_Luther_King%2C_Jr..jpg/330px-Martin_Luther_King%2C_Jr..jpg",
+"url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr."
+},
+"Pythagoras": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg/330px-Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg",
+"url": "https://en.wikipedia.org/wiki/Pythagoras"
+},
+"Heraclitus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Heraclitus_b_4_compressed.jpg/330px-Heraclitus_b_4_compressed.jpg",
+"url": "https://en.wikipedia.org/wiki/Heraclitus"
+},
+"Confucius": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Confucius_Tang_Dynasty.jpg/330px-Confucius_Tang_Dynasty.jpg",
+"url": "https://en.wikipedia.org/wiki/Confucius"
+},
+"Laozi": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Laozi_%28Chinese_characters%29.svg/330px-Laozi_%28Chinese_characters%29.svg.png",
+"url": "https://en.wikipedia.org/wiki/Laozi"
+},
+"Socrates": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/330px-Socrates_Louvre.jpg",
+"url": "https://en.wikipedia.org/wiki/Socrates"
+},
+"Plato": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png/330px-Plato_Silanion_Musei_Capitolini_MC1377.png",
+"url": "https://en.wikipedia.org/wiki/Plato"
+},
+"Aristotle": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/330px-Aristotle_Altemps_Inv8575.jpg",
+"url": "https://en.wikipedia.org/wiki/Aristotle"
+},
+"Diogenes": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Diogenes_Mosaic_R%C3%B6misch-Germanisches_Museum.jpg/330px-Diogenes_Mosaic_R%C3%B6misch-Germanisches_Museum.jpg",
+"url": "https://en.wikipedia.org/wiki/Diogenes"
+},
+"Epicurus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Epikouros_BM_1843.jpg/330px-Epikouros_BM_1843.jpg",
+"url": "https://en.wikipedia.org/wiki/Epicurus"
+},
+"Zeno of Citium": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Paolo_Monti_-_Servizio_fotografico_%28Napoli%2C_1969%29_-_BEIC_6353768.jpg/330px-Paolo_Monti_-_Servizio_fotografico_%28Napoli%2C_1969%29_-_BEIC_6353768.jpg",
+"url": "https://en.wikipedia.org/wiki/Zeno_of_Citium"
+},
+"Seneca": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/330px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+"url": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+},
+"Epictetus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg/330px-Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Epictetus"
+},
+"Marcus Aurelius": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/330px-MSR-ra-61-b-1-DM.jpg",
+"url": "https://en.wikipedia.org/wiki/Marcus_Aurelius"
+},
+"Augustine of Hippo": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/330px-Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+"url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo"
+},
+"Avicenna (Ibn Sina)": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Avicenna_Bust%2C_left_profile_%28cropped%29.jpg/330px-Avicenna_Bust%2C_left_profile_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Avicenna"
+},
+"Al-Ghazali": {
+"img": "",
+"url": "https://en.wikipedia.org/wiki/Al-Ghazali"
+},
+"Averroes (Ibn Rushd)": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg/330px-Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d%27aquino%2C_11_averro%C3%A8.jpg",
+"url": "https://en.wikipedia.org/wiki/Averroes"
+},
+"Maimonides": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif/lossy-page1-330px-Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif.jpg",
+"url": "https://en.wikipedia.org/wiki/Maimonides"
+},
+"Thomas Aquinas": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/330px-St-thomas-aquinasFXD.jpg",
+"url": "https://en.wikipedia.org/wiki/Thomas_Aquinas"
+},
+"Erasmus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holbein-erasmus.jpg/330px-Holbein-erasmus.jpg",
+"url": "https://en.wikipedia.org/wiki/Erasmus"
+},
+"Niccolò Machiavelli": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/330px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+"url": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli"
+},
+"Michel de Montaigne": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg/330px-Portrait_of_Michel_de_Montaigne%2C_circa_unknown.jpg",
+"url": "https://en.wikipedia.org/wiki/Michel_de_Montaigne"
+},
+"Francis Bacon": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/330px-Somer_Francis_Bacon.jpg",
+"url": "https://en.wikipedia.org/wiki/Francis_Bacon"
+},
+"Thomas Hobbes": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg/330px-Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Thomas_Hobbes"
+},
+"René Descartes": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/330px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+"url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+},
+"Baruch Spinoza": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/330px-Spinoza.jpg",
+"url": "https://en.wikipedia.org/wiki/Baruch_Spinoza"
+},
+"John Locke": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg/330px-Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg",
+"url": "https://en.wikipedia.org/wiki/John_Locke"
+},
+"Gottfried Leibniz": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/330px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+},
+"Montesquieu": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Charles_Montesquieu.jpg/330px-Charles_Montesquieu.jpg",
+"url": "https://en.wikipedia.org/wiki/Montesquieu"
+},
+"Voltaire": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_%281694-1778%29_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_%28cropped%29.jpg/330px-Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_%281694-1778%29_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Voltaire"
+},
+"David Hume": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/David_Hume_Ramsay.jpg/330px-David_Hume_Ramsay.jpg",
+"url": "https://en.wikipedia.org/wiki/David_Hume"
+},
+"Jean-Jacques Rousseau": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg/330px-Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+"url": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau"
+},
+"Immanuel Kant": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Immanuel_Kant_-_Gemaelde_1.jpg/330px-Immanuel_Kant_-_Gemaelde_1.jpg",
+"url": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+},
+"Adam Smith": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/330px-Adam_Smith_The_Muir_portrait.jpg",
+"url": "https://en.wikipedia.org/wiki/Adam_Smith"
+},
+"G. W. F. Hegel": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg/330px-Jakob_Schlesinger_-_Hegel_1831.jpg",
+"url": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+},
+"Arthur Schopenhauer": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/330px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+"url": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer"
+},
+"Søren Kierkegaard": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg/330px-S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard"
+},
+"Karl Marx": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored_%26_Adjusted_%283x4_cropped_b%29.png/330px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored_%26_Adjusted_%283x4_cropped_b%29.png",
+"url": "https://en.wikipedia.org/wiki/Karl_Marx"
+},
+"John Stuart Mill": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg/330px-John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg",
+"url": "https://en.wikipedia.org/wiki/John_Stuart_Mill"
+},
+"Friedrich Nietzsche": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/330px-Nietzsche187a.jpg",
+"url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
+},
+"Oswald Spengler": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Oswald_Spengler.jpg/330px-Oswald_Spengler.jpg",
+"url": "https://en.wikipedia.org/wiki/Oswald_Spengler"
+},
+"Sigmund Freud": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/330px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+},
+"Ludwig Wittgenstein": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ludwig_Wittgenstein_1929.jpg/330px-Ludwig_Wittgenstein_1929.jpg",
+"url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein"
+},
+"Jean-Paul Sartre": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/330px-Jean_Paul_Sartre_1965.jpg",
+"url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+},
+"Hannah Arendt": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg/330px-Hannah_Arendt_auf_dem_1._Kulturkritikerkongress%2C_Barbara_Niggl_Radloff%2C_FM-2019-1-5-9-16_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Hannah_Arendt"
+},
+"Euclid": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Italian_-_Euclid_-_Google_Art_Project.jpg/330px-Italian_-_Euclid_-_Google_Art_Project.jpg",
+"url": "https://en.wikipedia.org/wiki/Euclid"
+},
+"Archimedes": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/330px-Domenico-Fetti_Archimedes_1620.jpg",
+"url": "https://en.wikipedia.org/wiki/Archimedes"
+},
+"Ibn al-Haytham": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ibn_al-Haytham_crop.jpg/330px-Ibn_al-Haytham_crop.jpg",
+"url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+},
+"Nicolaus Copernicus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/330px-Nikolaus_Kopernikus_MOT.jpg",
+"url": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+},
+"Johannes Kepler": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/JKepler.jpg/330px-JKepler.jpg",
+"url": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+},
+"Galileo Galilei": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-330px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg",
+"url": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+},
+"Isaac Newton": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/330px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Isaac_Newton"
+},
+"Antoine Lavoisier": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg/330px-David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%292.jpg",
+"url": "https://en.wikipedia.org/wiki/Antoine_Lavoisier"
+},
+"Michael Faraday": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Michael_Faraday_sitting_crop.jpg/330px-Michael_Faraday_sitting_crop.jpg",
+"url": "https://en.wikipedia.org/wiki/Michael_Faraday"
+},
+"Charles Darwin": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/330px-Charles_Darwin_seated_crop.jpg",
+"url": "https://en.wikipedia.org/wiki/Charles_Darwin"
+},
+"Louis Pasteur": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/330px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg",
+"url": "https://en.wikipedia.org/wiki/Louis_Pasteur"
+},
+"Gregor Mendel": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Gregor_Mendel_2.jpg/330px-Gregor_Mendel_2.jpg",
+"url": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+},
+"James Clerk Maxwell": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/James-Clerk-Maxwell-1831-1879.jpg/330px-James-Clerk-Maxwell-1831-1879.jpg",
+"url": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+},
+"Marie Curie": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/330px-Marie_Curie_c._1920s.jpg",
+"url": "https://en.wikipedia.org/wiki/Marie_Curie"
+},
+"Albert Einstein": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/330px-Albert_Einstein_Head_cleaned.jpg",
+"url": "https://en.wikipedia.org/wiki/Albert_Einstein"
+},
+"Niels Bohr": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Niels_Bohr.jpg/330px-Niels_Bohr.jpg",
+"url": "https://en.wikipedia.org/wiki/Niels_Bohr"
+},
+"Werner Heisenberg": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Werner_Heisenberg_Portrait_%283x4_cropped%29.jpg/330px-Werner_Heisenberg_Portrait_%283x4_cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+},
+"Nikola Tesla": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/330px-Tesla_circa_1890.jpeg",
+"url": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+},
+"Thomas Edison": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/330px-Thomas_Edison2.jpg",
+"url": "https://en.wikipedia.org/wiki/Thomas_Edison"
+},
+"Alan Turing": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Alan_turing_header.jpg/330px-Alan_turing_header.jpg",
+"url": "https://en.wikipedia.org/wiki/Alan_Turing"
+},
+"Watson, Crick & Franklin": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Francis_Crick_crop.jpg/330px-Francis_Crick_crop.jpg",
+"url": "https://en.wikipedia.org/wiki/Francis_Crick"
+},
+"Norman Borlaug": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Norman_Borlaug%2C_2004_%28cropped%29.jpg/330px-Norman_Borlaug%2C_2004_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Norman_Borlaug"
+},
+"Tim Berners-Lee": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg/330px-Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+},
+"Moses": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rembrandt_Harmensz._van_Rijn_079.jpg/330px-Rembrandt_Harmensz._van_Rijn_079.jpg",
+"url": "https://en.wikipedia.org/wiki/Moses"
+},
+"Buddha (Siddhartha Gautama)": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/330px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg",
+"url": "https://en.wikipedia.org/wiki/The_Buddha"
+},
+"Jesus of Nazareth": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Spas_vsederzhitel_sinay_%28cropped1%29.jpg/330px-Spas_vsederzhitel_sinay_%28cropped1%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Jesus"
+},
+"Muhammad": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Al-Masjid_AL-Nabawi_Door.jpg/330px-Al-Masjid_AL-Nabawi_Door.jpg",
+"url": "https://en.wikipedia.org/wiki/Muhammad"
+},
+"Martin Luther": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/330px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Martin_Luther"
+},
+"John Calvin": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png/330px-John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png",
+"url": "https://en.wikipedia.org/wiki/John_Calvin"
+},
+"Guru Nanak": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg/330px-Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg",
+"url": "https://en.wikipedia.org/wiki/Guru_Nanak"
+},
+"Mother Teresa": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/330px-Mother_Teresa_1.jpg",
+"url": "https://en.wikipedia.org/wiki/Mother_Teresa"
+},
+"The 14th Dalai Lama": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Dalai_Lama_in_2012.jpg/330px-The_Dalai_Lama_in_2012.jpg",
+"url": "https://en.wikipedia.org/wiki/14th_Dalai_Lama"
+},
+"Giotto": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Giotto%2C_Santa_Maria_Novella.jpg/330px-Giotto%2C_Santa_Maria_Novella.jpg",
+"url": "https://en.wikipedia.org/wiki/Giotto"
+},
+"Filippo Brunelleschi": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg/330px-Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+"url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi"
+},
+"Donatello": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Donatello%2C_miracolo_della_mula%2C_1446-49_ca._%28pd%2C_museo_antoniano%29_37_uomo_che_si_allontana%2C_forse_autoritratto_%28cropped%29.jpg/330px-Donatello%2C_miracolo_della_mula%2C_1446-49_ca._%28pd%2C_museo_antoniano%29_37_uomo_che_si_allontana%2C_forse_autoritratto_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Donatello"
+},
+"Sandro Botticelli": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sandro_Botticelli_083.jpg/330px-Sandro_Botticelli_083.jpg",
+"url": "https://en.wikipedia.org/wiki/Sandro_Botticelli"
+},
+"Leonardo da Vinci": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/330px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+"url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+},
+"Michelangelo": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/330px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Michelangelo"
+},
+"Raphael": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/330px-Raffaello_Sanzio.jpg",
+"url": "https://en.wikipedia.org/wiki/Raphael"
+},
+"Titian": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg/330px-Titian_-_Self-portrait_%28Museo_del_Prado%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Titian"
+},
+"Pico della Mirandola": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pico1.jpg/330px-Pico1.jpg",
+"url": "https://en.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola"
+},
+"The Medici": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Augmented_Arms_of_Medici.svg/330px-Augmented_Arms_of_Medici.svg.png",
+"url": "https://en.wikipedia.org/wiki/House_of_Medici"
+},
+"Petrarch": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Portrait_of_Francesco_Petrarca_%28called_Petrarch%29_-_French_school%2C_17th_century.jpg/330px-Portrait_of_Francesco_Petrarca_%28called_Petrarch%29_-_French_school%2C_17th_century.jpg",
+"url": "https://en.wikipedia.org/wiki/Petrarch"
+},
+"Giorgio Vasari": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Zucchi%2C_Jacopo_-_Vasari%2C_Giorgio_-_Uffizi_ICCD.jpg/330px-Zucchi%2C_Jacopo_-_Vasari%2C_Giorgio_-_Uffizi_ICCD.jpg",
+"url": "https://en.wikipedia.org/wiki/Giorgio_Vasari"
+},
+"Andrea Palladio": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Andrea_Palladio2.jpeg/330px-Andrea_Palladio2.jpeg",
+"url": "https://en.wikipedia.org/wiki/Andrea_Palladio"
+},
+"Jan van Eyck": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg/330px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg",
+"url": "https://en.wikipedia.org/wiki/Jan_van_Eyck"
+},
+"Albrecht Dürer": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/330px-D%C3%BCrer_Alte_Pinakothek.jpg",
+"url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
+},
+"Pieter Bruegel the Elder": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg/330px-Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer%2C_ca._1566_-_Google_Art_Project.jpg",
+"url": "https://en.wikipedia.org/wiki/Pieter_Bruegel_the_Elder"
+},
+"Caravaggio": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg/330px-Bild-Ottavio_Leoni%2C_Caravaggio.jpg",
+"url": "https://en.wikipedia.org/wiki/Caravaggio"
+},
+"Rembrandt": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/330px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+"url": "https://en.wikipedia.org/wiki/Rembrandt"
+},
+"Johannes Vermeer": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg/330px-Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+"url": "https://en.wikipedia.org/wiki/Johannes_Vermeer"
+},
+"Francisco Goya": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg/330px-Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg",
+"url": "https://en.wikipedia.org/wiki/Francisco_Goya"
+},
+"J. M. W. Turner": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Joseph_Mallord_William_Turner_auto-retrato.jpg/330px-Joseph_Mallord_William_Turner_auto-retrato.jpg",
+"url": "https://en.wikipedia.org/wiki/J._M._W._Turner"
+},
+"Claude Monet": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/330px-Claude_Monet_1899_Nadar_crop.jpg",
+"url": "https://en.wikipedia.org/wiki/Claude_Monet"
+},
+"Vincent van Gogh": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/330px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+},
+"Pablo Picasso": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/330px-Pablo_picasso_1.jpg",
+"url": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+},
+"Homer": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Homer_At_the_British_Museum_2024_%283x4_cropped%29.jpg/330px-Homer_At_the_British_Museum_2024_%283x4_cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Homer"
+},
+"Virgil": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Virgil_mosaic_in_the_Bardo_National_Museum_%28Tunis%29_%2812241228546%29.jpg/330px-Virgil_mosaic_in_the_Bardo_National_Museum_%28Tunis%29_%2812241228546%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Virgil"
+},
+"Dante Alighieri": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Bargello_-_Kapelle_Fresko_2a.jpg/330px-Bargello_-_Kapelle_Fresko_2a.jpg",
+"url": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+},
+"Geoffrey Chaucer": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg/330px-Chaucer_manuscrit_portrait_%28d%C3%A9tail%29.jpeg",
+"url": "https://en.wikipedia.org/wiki/Geoffrey_Chaucer"
+},
+"Miguel de Cervantes": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Cervantes_J%C3%A1uregui.jpg/330px-Cervantes_J%C3%A1uregui.jpg",
+"url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+},
+"William Shakespeare": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/330px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+"url": "https://en.wikipedia.org/wiki/William_Shakespeare"
+},
+"John Milton": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/John_Milton_Christ%27s_College.jpg/330px-John_Milton_Christ%27s_College.jpg",
+"url": "https://en.wikipedia.org/wiki/John_Milton"
+},
+"Molière": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_%281622-1673%29_-_Google_Art_Project_%28cropped%29.jpg/330px-Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_%281622-1673%29_-_Google_Art_Project_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Moli%C3%A8re"
+},
+"Johann Wolfgang von Goethe": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/330px-Goethe_%28Stieler_1828%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+},
+"Jane Austen": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/330px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg",
+"url": "https://en.wikipedia.org/wiki/Jane_Austen"
+},
+"Victor Hugo": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg/330px-Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+"url": "https://en.wikipedia.org/wiki/Victor_Hugo"
+},
+"Charles Dickens": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/330px-Dickens_Gurney_head.jpg",
+"url": "https://en.wikipedia.org/wiki/Charles_Dickens"
+},
+"Leo Tolstoy": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Leo_Tolstoy_1908_Portrait_%283x4_cropped%29.jpg/330px-Leo_Tolstoy_1908_Portrait_%283x4_cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+},
+"Fyodor Dostoevsky": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg/330px-Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg",
+"url": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+},
+"Mark Twain": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mark_Twain_by_AF_Bradley_%28cropped_2%29.jpg/330px-Mark_Twain_by_AF_Bradley_%28cropped_2%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Mark_Twain"
+},
+"James Joyce": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Revolutionary_Joyce_Better_Contrast.jpg/330px-Revolutionary_Joyce_Better_Contrast.jpg",
+"url": "https://en.wikipedia.org/wiki/James_Joyce"
+},
+"Johann Sebastian Bach": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/330px-Johann_Sebastian_Bach.jpg",
+"url": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
+},
+"Wolfgang Amadeus Mozart": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/330px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+"url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+},
+"Ludwig van Beethoven": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/330px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+"url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+},
+"Frédéric Chopin": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Frederic_Chopin_photo.jpeg/330px-Frederic_Chopin_photo.jpeg",
+"url": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
+},
+"Richard Wagner": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/330px-RichardWagner.jpg",
+"url": "https://en.wikipedia.org/wiki/Richard_Wagner"
+},
+"Giuseppe Verdi": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg/330px-Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
+"url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+},
+"Zheng He": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2016_Malakka%2C_Stadhuys_%2809%29.jpg/330px-2016_Malakka%2C_Stadhuys_%2809%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Zheng_He"
+},
+"Marco Polo": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Frontispice_%C3%A9dition_de_Nuremberg_1477_%28cropped%29.png/330px-Frontispice_%C3%A9dition_de_Nuremberg_1477_%28cropped%29.png",
+"url": "https://en.wikipedia.org/wiki/Marco_Polo"
+},
+"Ibn Battuta": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg/330px-Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt%2C_a_painting_by_Hippolyte_Leon_Benett..jpg",
+"url": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+},
+"Christopher Columbus": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/330px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg",
+"url": "https://en.wikipedia.org/wiki/Christopher_Columbus"
+},
+"Vasco da Gama": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg/330px-Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg",
+"url": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+},
+"Ferdinand Magellan": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ferdinand_Magellan.jpg/330px-Ferdinand_Magellan.jpg",
+"url": "https://en.wikipedia.org/wiki/Ferdinand_Magellan"
+},
+"James Cook": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/330px-Captainjamescookportrait.jpg",
+"url": "https://en.wikipedia.org/wiki/James_Cook"
+},
+"Johannes Gutenberg": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg/330px-Mainz_Gutenbergdenkmal_2016_%28cropped%29.jpg",
+"url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+},
+"James Watt": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Watt_James_von_Breda.jpg/330px-Watt_James_von_Breda.jpg",
+"url": "https://en.wikipedia.org/wiki/James_Watt"
+},
+"Henry Ford": {
+"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Henry_Ford_portrait_1915_original_%283x4_cropped%29.png/330px-Henry_Ford_portrait_1915_original_%283x4_cropped%29.png",
+"url": "https://en.wikipedia.org/wiki/Henry_Ford"
+}
+}

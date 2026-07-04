@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Literacy — Atlas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand">World Literacy</div>
+    <nav class="fields">
+      <a href="index.html" class="active">Atlas</a>
+      <a href="fields.html?f=History">History</a>
+      <a href="fields.html?f=People">People</a>
+      <a href="fields.html?f=Economics">Economics</a>
+      <a href="fields.html?f=Geopolitics">Geopolitics</a>
+      <a href="fields.html?f=Threads">Threads</a>
+      <a href="explore.html">Explore</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="hero"></section>
+  <section class="map-wrap">
+    <div class="map-toolbar">
+      <div class="view-toggle" id="mapView">
+        <button data-v="flat" class="active">Flat</button>
+        <button data-v="globe">Globe</button>
+      </div>
+      <div class="map-zoom" id="mapZoom">
+        <button data-z="out" title="Zoom out">−</button>
+        <button data-z="in" title="Zoom in">+</button>
+        <button data-z="reset" title="Reset view">Reset</button>
+      </div>
+    </div>
+    <div id="worldmap"><div class="empty">Loading map…</div></div>
+    <canvas id="globe" hidden></canvas>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <h2 class="section-title">By the numbers</h2>
+  <p class="section-sub">The top 15 countries — click a bar to open the country.</p>
+  <div class="chart-tabs" id="rankTabs"></div>
+  <div class="bars" id="ranks"></div>
+
+  <h2 class="section-title">Browse all countries</h2>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search country or capital…" autocomplete="off">
+    <select id="region"><option value="">All regions</option></select>
+    <select id="sort">
+      <option value="country">Sort: name (A–Z)</option>
+      <option value="pop_desc">Population (high→low)</option>
+      <option value="pop_asc">Population (low→high)</option>
+      <option value="gdp_desc">GDP per capita (high→low)</option>
+      <option value="gdp_asc">GDP per capita (low→high)</option>
+      <option value="area_desc">Area (large→small)</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="grid" id="grid"><div class="empty">Loading…</div></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  Source: CIA World Factbook Archive + World Bank. Generated from the same data as the Anki decks.
+</div></footer>
+
+<script src="assets/vendor/d3.min.js"></script>
+<script src="assets/vendor/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
