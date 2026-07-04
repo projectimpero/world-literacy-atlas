@@ -1115,24 +1115,31 @@ async function initFields() {
       return { L, evs, height: PADTOP + Math.max(1, rowRight.length) * ROW + PADBOT };
     });
 
-    // era phase bands (tints) + a label row above the lanes
-    const eraStart = {};
-    events.forEach(e => { eraStart[e.time.era] = Math.min(eraStart[e.time.era] ?? 9999, e.time.year_start); });
-    const eras = Object.entries(eraStart).sort((a, b) => a[1] - b[1]);
-    const eraTints = eras.map(([, sy], i) => {
-      const end = i + 1 < eras.length ? eras[i + 1][1] : maxYear;
-      return `<div class="tl-era" style="left:${x(sy)}px;width:${x(end) - x(sy)}px"></div>`;
-    }).join("");
-    // era labels collide where eras start close together (the classical
-    // centuries) — pack them into two rows, like the event chips
-    const lblRight = [0, 0];
-    const eraLabels = eras.map(([name, sy]) => {
-      const left = x(sy) + 6, w = name.length * 6.6 + 14;
+    // Period bands: the canonical periodisation, NOT the decks' sections —
+    // sections are thematic (Byzantium / The East / Wider Worlds all span the
+    // same centuries), so deriving bands from them stamps overlapping labels.
+    // Fixed periods are non-overlapping by construction.
+    const PERIODS = [
+      { n: "Antiquity", a: -3300, b: 500 },
+      { n: "The Middle Ages", a: 500, b: 1500 },
+      { n: "Early Modern", a: 1500, b: 1789 },
+      { n: "The Long 19th Century", a: 1789, b: 1914 },
+      { n: "20th Century", a: 1914, b: 2000 },
+      { n: "21st Century", a: 2000, b: 9999 },
+    ].filter(p => p.a < maxYear && p.b > SEGS[0].a);
+    const inGap = (p) => SEGS.some(s => s.gap && p.a >= s.a && p.b <= s.b);
+    const eraTints = PERIODS.map((p, i) => i % 2 === 0 ? "" :
+      `<div class="tl-era" style="left:${x(p.a).toFixed(1)}px;width:${(x(Math.min(p.b, maxYear)) - x(p.a)).toFixed(1)}px"></div>`).join("");
+    const lblRight = [0, 0];  // two-row packing for the tight joints
+    const eraLabels = PERIODS.filter(p => !inGap(p)).map(p => {
+      // if the period *starts* inside a compressed gap, label it from the gap's end
+      const gapSeg = SEGS.find(s => s.gap && p.a >= s.a && p.a < s.b);
+      const left = x(gapSeg ? gapSeg.b : p.a) + 6, w = p.n.length * 6.6 + 14;
       const r = left >= lblRight[0] - 2 ? 0
         : left >= lblRight[1] - 2 ? 1
         : (lblRight[0] <= lblRight[1] ? 0 : 1);
       lblRight[r] = left + w;
-      return `<span class="tl-era-lbl" style="left:${left.toFixed(1)}px;top:${4 + r * 14}px">${esc(name)}</span>`;
+      return `<span class="tl-era-lbl" style="left:${left.toFixed(1)}px;top:${4 + r * 14}px">${esc(p.n)}</span>`;
     }).join("");
 
     let ticks = "";
