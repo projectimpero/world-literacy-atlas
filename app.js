@@ -891,6 +891,67 @@ async function initExplore() {
   render();
 }
 
+/* ---------- shared timeline scaffolding (History + People) ---------- */
+// Piecewise 5,000-year scale: sparse deep antiquity, denser classical, the
+// medieval millennium, then modern at full resolution. `openGap` opens the
+// 1500–1900 band to real scale (People span it densely) instead of the
+// hatched "eras to come" placeholder.
+function tlScale(minYear, maxYear, openGap) {
+  const SEGS = minYear < 550 ? [
+    { a: Math.min(-3300, minYear), b: -1000, ppy: 0.16, tick: 500 },
+    { a: -1000, b: 550, ppy: 0.85, tick: 250 },
+    { a: 550, b: 1500, ppy: 0.58, tick: 100 },
+    openGap ? { a: 1500, b: 1900, ppy: 0.75, tick: 50 }
+            : { a: 1500, b: 1900, px: 120, gap: true },
+    { a: 1900, b: maxYear, ppy: 26, tick: 10 },
+  ] : [{ a: Math.floor(minYear / 10) * 10, b: maxYear, ppy: 26, tick: 10 }];
+  let accX = 0;
+  SEGS.forEach(s => { s.x0 = accX; s.w = s.gap ? s.px : (s.b - s.a) * s.ppy; accX += s.w; });
+  const x = (y) => {
+    const yy = Math.max(SEGS[0].a, Math.min(y, SEGS[SEGS.length - 1].b));
+    const s = SEGS.find(g => yy <= g.b);
+    return s.x0 + (yy - s.a) * (s.w / (s.b - s.a));
+  };
+  return { SEGS, x, fmtYear: (y) => y < 0 ? `${-y} BCE` : `${y}`, innerW: accX };
+}
+
+// Axis chrome shared by both timelines: canonical period bands (non-overlapping
+// by construction), tick marks, and the gap placeholder.
+function tlAxisChrome(SEGS, x, fmtYear, maxYear) {
+  const PERIODS = [
+    { n: "Antiquity", a: -3300, b: 500 },
+    { n: "The Middle Ages", a: 500, b: 1500 },
+    { n: "Early Modern", a: 1500, b: 1789 },
+    { n: "The Long 19th Century", a: 1789, b: 1914 },
+    { n: "20th Century", a: 1914, b: 2000 },
+    { n: "21st Century", a: 2000, b: 9999 },
+  ].filter(p => p.a < maxYear && p.b > SEGS[0].a);
+  const inGap = (p) => SEGS.some(s => s.gap && p.a >= s.a && p.b <= s.b);
+  const eraTints = PERIODS.map((p, i) => i % 2 === 0 ? "" :
+    `<div class="tl-era" style="left:${x(p.a).toFixed(1)}px;width:${(x(Math.min(p.b, maxYear)) - x(p.a)).toFixed(1)}px"></div>`).join("");
+  const lblRight = [0, 0];  // two-row packing for the tight joints
+  const eraLabels = PERIODS.filter(p => !inGap(p)).map(p => {
+    const gapSeg = SEGS.find(s => s.gap && p.a >= s.a && p.a < s.b);  // starts in a gap -> label from its end
+    const left = x(gapSeg ? gapSeg.b : p.a) + 6, w = p.n.length * 6.6 + 14;
+    const r = left >= lblRight[0] - 2 ? 0 : left >= lblRight[1] - 2 ? 1 : (lblRight[0] <= lblRight[1] ? 0 : 1);
+    lblRight[r] = left + w;
+    return `<span class="tl-era-lbl" style="left:${left.toFixed(1)}px;top:${4 + r * 14}px">${esc(p.n)}</span>`;
+  }).join("");
+  let ticks = "";
+  const seen = new Set();  // segment joints share a year — emit once
+  for (const s of SEGS) {
+    if (s.gap) continue;
+    for (let y = Math.ceil(s.a / s.tick) * s.tick; y <= s.b; y += s.tick) {
+      if (seen.has(y)) continue;
+      seen.add(y);
+      ticks += `<div class="tl-tick" style="left:${x(y)}px"><span>${fmtYear(y)}</span></div>`;
+    }
+  }
+  const gapHtml = SEGS.filter(s => s.gap).map(s =>
+    `<div class="tl-gapband" style="left:${s.x0}px;width:${s.w}px"><span>1500 – 1900<br>eras to come</span></div>`).join("");
+  return { ticks, eraLabels, eraTints, gapHtml };
+}
+
 /* ---------- fields (card browser) ---------- */
 async function initFields() {
   const wrap = document.getElementById("cards");
@@ -1099,23 +1160,7 @@ async function initFields() {
     // (500–1900), then the modern world at full resolution. With the People
     // layer on, the 500–1900 band opens to real scale (that's where the
     // Renaissance lives) instead of the compressed gap.
-    const SEGS = minYear < 550 ? [
-      { a: Math.min(-3300, minYear), b: -1000, ppy: 0.16, tick: 500 },
-      { a: -1000, b: 550, ppy: 0.85, tick: 250 },
-      { a: 550, b: 1500, ppy: 0.58, tick: 100 },   // the medieval millennium, real scale
-      withPeople ? { a: 1500, b: 1900, ppy: 0.75, tick: 50 }
-                 : { a: 1500, b: 1900, px: 120, gap: true },
-      { a: 1900, b: maxYear, ppy: 26, tick: 10 },
-    ] : [{ a: Math.floor(minYear / 10) * 10, b: maxYear, ppy: 26, tick: 10 }];
-    let accX = 0;
-    SEGS.forEach(s => { s.x0 = accX; s.w = s.gap ? s.px : (s.b - s.a) * s.ppy; accX += s.w; });
-    const innerW = accX;
-    const x = (y) => {
-      const yy = Math.max(SEGS[0].a, Math.min(y, SEGS[SEGS.length - 1].b));
-      const s = SEGS.find(g => yy <= g.b);
-      return s.x0 + (yy - s.a) * (s.w / (s.b - s.a));
-    };
-    const fmtYear = (y) => y < 0 ? `${-y} BCE` : `${y}`;
+    const { SEGS, x, fmtYear, innerW } = tlScale(minYear, maxYear, withPeople);
     const lanes = TL_LANES.filter(L => events.some(e => e.time.region_group === L));
     const ROW = 28, PADTOP = 9, PADBOT = 7;
     const estW = (title) => Math.min(168, title.length * 6.6 + 32);
@@ -1137,45 +1182,7 @@ async function initFields() {
       return { L, evs, height: PADTOP + Math.max(1, rowRight.length) * ROW + PADBOT };
     });
 
-    // Period bands: the canonical periodisation, NOT the decks' sections —
-    // sections are thematic (Byzantium / The East / Wider Worlds all span the
-    // same centuries), so deriving bands from them stamps overlapping labels.
-    // Fixed periods are non-overlapping by construction.
-    const PERIODS = [
-      { n: "Antiquity", a: -3300, b: 500 },
-      { n: "The Middle Ages", a: 500, b: 1500 },
-      { n: "Early Modern", a: 1500, b: 1789 },
-      { n: "The Long 19th Century", a: 1789, b: 1914 },
-      { n: "20th Century", a: 1914, b: 2000 },
-      { n: "21st Century", a: 2000, b: 9999 },
-    ].filter(p => p.a < maxYear && p.b > SEGS[0].a);
-    const inGap = (p) => SEGS.some(s => s.gap && p.a >= s.a && p.b <= s.b);
-    const eraTints = PERIODS.map((p, i) => i % 2 === 0 ? "" :
-      `<div class="tl-era" style="left:${x(p.a).toFixed(1)}px;width:${(x(Math.min(p.b, maxYear)) - x(p.a)).toFixed(1)}px"></div>`).join("");
-    const lblRight = [0, 0];  // two-row packing for the tight joints
-    const eraLabels = PERIODS.filter(p => !inGap(p)).map(p => {
-      // if the period *starts* inside a compressed gap, label it from the gap's end
-      const gapSeg = SEGS.find(s => s.gap && p.a >= s.a && p.a < s.b);
-      const left = x(gapSeg ? gapSeg.b : p.a) + 6, w = p.n.length * 6.6 + 14;
-      const r = left >= lblRight[0] - 2 ? 0
-        : left >= lblRight[1] - 2 ? 1
-        : (lblRight[0] <= lblRight[1] ? 0 : 1);
-      lblRight[r] = left + w;
-      return `<span class="tl-era-lbl" style="left:${left.toFixed(1)}px;top:${4 + r * 14}px">${esc(p.n)}</span>`;
-    }).join("");
-
-    let ticks = "";
-    const seen = new Set();  // segment joints share a year — emit once
-    for (const s of SEGS) {
-      if (s.gap) continue;
-      for (let y = Math.ceil(s.a / s.tick) * s.tick; y <= s.b; y += s.tick) {
-        if (seen.has(y)) continue;
-        seen.add(y);
-        ticks += `<div class="tl-tick" style="left:${x(y)}px"><span>${fmtYear(y)}</span></div>`;
-      }
-    }
-    const gapHtml = SEGS.filter(s => s.gap).map(s =>
-      `<div class="tl-gapband" style="left:${s.x0}px;width:${s.w}px"><span>1500 – 1900<br>eras to come</span></div>`).join("");
+    const { ticks, eraLabels, eraTints, gapHtml } = tlAxisChrome(SEGS, x, fmtYear, maxYear);
 
     const laneHtml = laneData.map(ld => {
       const inner = ld.evs.map(o => {
@@ -1260,12 +1267,74 @@ async function initFields() {
     });
   }
 
-  // The timeline is always on for event fields — the map of time above,
+  // The People field gets its OWN timeline: 174 lifespan bars in section lanes,
+  // on the same 5,000-year axis — the portrait grid, laid out in time.
+  function buildPeopleTimeline() {
+    const ppl = field.cards.map((c, i) => ({ c, i })).filter(o => o.c.time);
+    const maxYear = Math.ceil((Math.max(...ppl.map(o => o.c.time.year_end)) + 4) / 10) * 10;
+    const minYear = Math.min(...ppl.map(o => o.c.time.year_start));
+    const { SEGS, x, fmtYear, innerW } = tlScale(minYear, maxYear, true);  // 1500–1900 open: dense with figures
+    const { ticks, eraLabels, eraTints, gapHtml } = tlAxisChrome(SEGS, x, fmtYear, maxYear);
+    const estW = (t) => Math.min(168, t.length * 6.6 + 32);
+    const PADTOP = 9, PADBOT = 7, PROW = 21;
+    const lanes = Object.keys(PEOPLE_COLORS).filter(s => ppl.some(o => o.c.section === s));
+
+    const laneData = lanes.map(L => {
+      const evs = ppl.filter(o => o.c.section === L).sort((a, b) => a.c.time.year_start - b.c.time.year_start);
+      const rowRight = [];
+      evs.forEach(o => {
+        const t = o.c.time; o.name = o.c.front.split(" — ")[0];
+        o.left = x(t.year_start); o.w = Math.max(5, x(t.year_end) - x(t.year_start));
+        const lw = Math.max(o.w, estW(o.name));
+        let row = 0; while (row < rowRight.length && rowRight[row] > o.left - 6) row++;
+        rowRight[row] = o.left + lw; o.row = row;
+      });
+      return { L, evs, height: PADTOP + Math.max(1, rowRight.length) * PROW + PADBOT };
+    });
+
+    const laneHtml = laneData.map(ld => {
+      const color = PEOPLE_COLORS[ld.L] || "#888";
+      const inner = ld.evs.map(o =>
+        `<a class="tl-person" href="person.html?n=${encodeURIComponent(o.name)}" style="left:${o.left.toFixed(1)}px;top:${PADTOP + o.row * PROW}px" title="${esc(o.name)} · ${esc(o.c.dates || "")}"><span class="pbar" style="width:${o.w.toFixed(1)}px;background:${color}"></span><span class="pn">${esc(o.name)}</span></a>`).join("");
+      return `<div class="tl-lane" data-region="${esc(ld.L)}" style="height:${ld.height}px">${inner}</div>`;
+    }).join("");
+
+    const chips = lanes.map(L =>
+      `<button data-region="${esc(L)}"><span class="sw" style="background:${PEOPLE_COLORS[L]}"></span>${esc(L)}</button>`).join("");
+    const labels = laneData.map(ld =>
+      `<div class="lane-label" data-region="${esc(ld.L)}" style="height:${ld.height}px"><span class="sw" style="background:${PEOPLE_COLORS[ld.L]}"></span>${esc(ld.L)}</div>`).join("");
+
+    timelineEl.innerHTML = `
+      <div class="tl-chips" id="tlChips">${chips}</div>
+      <div class="timeline-grid">
+        <div class="tl-labels"><div class="tl-axis-spacer"></div><div class="tl-eralabels-spacer"></div>${labels}</div>
+        <div class="tl-scroll"><div class="tl-inner" style="width:${innerW}px">
+          <div class="tl-axis">${ticks}</div>
+          <div class="tl-era-row">${eraLabels}</div>
+          <div class="tl-eras">${eraTints}</div>
+          ${gapHtml}
+          <div class="tl-lanes">${laneHtml}</div>
+        </div></div>
+      </div>`;
+
+    let selSec = "";
+    document.getElementById("tlChips").addEventListener("click", (ev) => {
+      const b = ev.target.closest("button"); if (!b) return;
+      selSec = selSec === b.dataset.region ? "" : b.dataset.region;
+      timelineEl.querySelectorAll(".tl-lane, .lane-label").forEach(l =>
+        l.classList.toggle("dim", selSec && l.dataset.region !== selSec));
+      timelineEl.querySelectorAll("#tlChips button").forEach(x =>
+        x.classList.toggle("active", x.dataset.region === selSec));
+    });
+  }
+
+  // The timeline is always on for time-bearing fields — the map of time above,
   // the entries below (same pattern as the atlas: map above, countries below).
-  // The People layer defaults ON (it's the point of the view); the toggle
-  // remembers the last choice.
+  // History defaults with People on; the People field gets its own lifespan
+  // timeline (section lanes).
   if (!timelineBuilt && field.cards.some(c => c.time)) {
-    buildTimeline(localStorage.getItem("wl-tl-people") !== "off");
+    if (meta.style === "people") buildPeopleTimeline();
+    else buildTimeline(localStorage.getItem("wl-tl-people") !== "off");
     timelineBuilt = true;
     timelineEl.hidden = false;
   }
