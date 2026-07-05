@@ -1213,9 +1213,9 @@ async function initFields() {
       peopleLabel = `<div class="lane-label" style="height:${h}px"><span class="sw" style="background:#A23B72"></span>People</div>`;
     }
 
-    const chips = lanes.map(L =>
-      `<button data-region="${esc(L)}"><span class="sw" style="background:${TL_COLORS[L]}"></span>${esc(L)}</button>`).join("")
-      + `<button class="tl-ppl${withPeople ? " active" : ""}" data-people="1">◉ People (${withPeople ? "on" : "off"})</button>`;
+    const chips = `<button class="tl-ppl${withPeople ? " active" : ""}" data-people="1">◉ People: ${withPeople ? "on" : "off"}</button>`
+      + lanes.map(L =>
+      `<button data-region="${esc(L)}"><span class="sw" style="background:${TL_COLORS[L]}"></span>${esc(L)}</button>`).join("");
     const labels = laneData.map(ld =>
       `<div class="lane-label" data-region="${esc(ld.L)}" style="height:${ld.height}px"><span class="sw" style="background:${TL_COLORS[ld.L]}"></span>${esc(ld.L)}</div>`).join("")
       + peopleLabel;
@@ -1248,7 +1248,10 @@ async function initFields() {
     let selRegion = "";
     document.getElementById("tlChips").addEventListener("click", (ev) => {
       const b = ev.target.closest("button"); if (!b) return;
-      if (b.dataset.people) { buildTimeline(!withPeople); return; }  // rebuild w/ layer toggled
+      if (b.dataset.people) {  // rebuild with the layer toggled; remember the choice
+        localStorage.setItem("wl-tl-people", withPeople ? "off" : "on");
+        buildTimeline(!withPeople); return;
+      }
       selRegion = selRegion === b.dataset.region ? "" : b.dataset.region;
       timelineEl.querySelectorAll(".tl-lane, .lane-label").forEach(l =>
         l.classList.toggle("dim", selRegion && l.dataset.region !== selRegion));
@@ -1259,8 +1262,11 @@ async function initFields() {
 
   // The timeline is always on for event fields — the map of time above,
   // the entries below (same pattern as the atlas: map above, countries below).
+  // The People layer defaults ON (it's the point of the view); the toggle
+  // remembers the last choice.
   if (!timelineBuilt && field.cards.some(c => c.time)) {
-    buildTimeline(); timelineBuilt = true;
+    buildTimeline(localStorage.getItem("wl-tl-people") !== "off");
+    timelineBuilt = true;
     timelineEl.hidden = false;
   }
 }
