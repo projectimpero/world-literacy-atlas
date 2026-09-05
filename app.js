@@ -715,8 +715,8 @@ async function initCountry() {
     for (const [fname, cards] of Object.entries(groups)) {
       html += `<div class="dos-field">${esc(fname)}</div>` + cards.map(cc => `
         <details class="dcard"><summary>${esc(cc.front)}</summary>
-          <div class="a">${linkify(esc(cc.back))}</div>
-          ${cc.extra ? `<div class="x">${linkify(esc(cc.extra))}</div>` : ""}
+          <div class="a">${richify(cc.back))}</div>
+          ${cc.extra ? `<div class="x">${richify(cc.extra))}</div>` : ""}
         </details>`).join("");
     }
     host.innerHTML = html;
@@ -811,8 +811,8 @@ async function initPerson() {
         ${pcredit}
       </div>
     </div>
-    <p class="lead">${linkify(esc(p.back))}</p>
-    ${t("Why they matter")}<p class="pwhy">${linkify(esc(p.why || ""))}</p>
+    <p class="lead">${richify(p.back))}</p>
+    ${t("Why they matter")}<p class="pwhy">${richify(p.why || ""))}</p>
     ${homes ? t("Place") + `<div class="dos-people">${homes}</div>` : ""}
     ${contemp ? t("Contemporaries") + `<div class="dos-people">${contemp}</div>` : ""}
     ${during ? t("The world during their life") + `<div class="dos-people">${during}</div>` : ""}
@@ -998,9 +998,9 @@ async function initFields() {
     }
     return `<div class="qa">
       ${c.section ? `<div class="badge">${esc(c.section)}</div>` : ""}
-      <div class="q">${linkify(esc(c.front))}</div>
-      <div class="a">${linkify(esc(c.back))}</div>
-      ${c.extra ? `<div class="x">${linkify(esc(c.extra))}</div>` : ""}
+      <div class="q">${richify(c.front))}</div>
+      <div class="a">${richify(c.back))}</div>
+      ${c.extra ? `<div class="x">${richify(c.extra))}</div>` : ""}
     </div>`;
   }
 
@@ -1080,9 +1080,9 @@ async function initFields() {
     if (rm) { region = rm[1]; extra = extra.slice(0, rm.index); }
     return `<article class="entry">
       ${when || region ? `<div class="entry-meta">${when ? `<span class="when">${esc(when)}</span>` : ""}${region ? `<span class="where">${esc(region)}</span>` : ""}</div>` : ""}
-      <h3>${linkify(esc(title))}</h3>
-      <p class="lead">${linkify(esc(c.back))}</p>
-      ${extra ? `<p class="ctx">${linkify(esc(extra))}</p>` : ""}
+      <h3>${richify(title))}</h3>
+      <p class="lead">${richify(c.back))}</p>
+      ${extra ? `<p class="ctx">${richify(extra))}</p>` : ""}
       ${seeAlso(c, i)}
     </article>`;
   }
@@ -1098,8 +1098,8 @@ async function initFields() {
         ? `<img src="${esc(img)}" alt="" loading="lazy" onerror="this.remove()">` : ""}</span>
         <div><div class="pname"><a href="person.html?n=${encodeURIComponent(name)}">${esc(name)}</a></div><div class="prole">${esc(role)}</div>
         <div class="pdates">${esc(c.dates || "")}</div></div></div>
-      <div class="pbody"><p class="lead">${linkify(esc(c.back))}</p>
-        <p class="ctx">${linkify(esc(c.why || c.extra))}</p></div>
+      <div class="pbody"><p class="lead">${richify(c.back))}</p>
+        <p class="ctx">${richify(c.why || c.extra))}</p></div>
     </div>`;
   }
 
@@ -1109,10 +1109,10 @@ async function initFields() {
     if (m) { pulls = m[1]; extra = extra.slice(0, m.index).trim(); }
     return `<article class="essay">
       <div class="badge">${esc(c.section)}</div>
-      <h3>${linkify(esc(c.front))}</h3>
-      <p class="body">${linkify(esc(c.back))}</p>
-      ${extra ? `<p class="ctx">${linkify(esc(extra))}</p>` : ""}
-      ${pulls ? `<div class="pulls">↳ Pulls together ${linkify(esc(pulls))}</div>` : ""}
+      <h3>${richify(c.front))}</h3>
+      <p class="body">${richify(c.back))}</p>
+      ${extra ? `<p class="ctx">${richify(extra))}</p>` : ""}
+      ${pulls ? `<div class="pulls">↳ Pulls together ${richify(pulls))}</div>` : ""}
       ${seeAlso(c, i)}
     </article>`;
   }
@@ -1390,7 +1390,11 @@ async function getCredits() {
   return CREDITS;
 }
 // Wrap country mentions in (already-escaped) text with links to their pages.
-function linkify(escaped) {
+function richify(s) {
+    // escape, linkify, then restore an allow-list of inline tags the card text carries (<b>, <i>)
+    return richify(s)).replace(/&lt;(\/?)(b|i)&gt;/g, "<$1$2>");
+  }
+  function linkify(escaped) {
   if (!NAME_RE) return escaped;
   return escaped.replace(NAME_RE, m => `<a class="cl" href="country.html?iso=${LINKS.names[m]}">${m}</a>`);
 }
