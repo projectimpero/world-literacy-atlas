@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Literacy — Sources &amp; verification</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html" style="color:inherit">World Literacy</a></div>
+    <nav class="fields">
+      <a href="index.html">Atlas</a>
+      <a href="fields.html?f=History">History</a>
+      <a href="fields.html?f=People">People</a>
+      <a href="fields.html?f=Economics">Economics</a>
+      <a href="fields.html?f=Geopolitics">Geopolitics</a>
+      <a href="fields.html?f=Threads">Threads</a>
+      <a href="explore.html">Explore</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="fieldhead"><div class="fh" style="--fc:#3E8E5A">
+    <h1>Sources &amp; verification</h1>
+    <p>Where every number comes from, when it was last checked, and when it is checked again.</p>
+  </div></div>
+
+  <div class="page">
+    <p class="lede">Most of what World Literacy teaches is stable: where a country is, what happened in 1945, what a central bank does. A minority of it churns — warhead counts, military budgets, chip market shares, the dollar's share of reserves — and a card that quietly goes out of date is worse than no card at all. This page is the standard that keeps those figures honest.</p>
+    <p>Every churning figure on a card is <strong>registered</strong> with the primary source it was checked against, the exact edition of that source, the month it was verified, and a re-verification cadence. Each figure is checked again when its cadence runs out. The registry also records every place a figure is <strong>echoed</strong> — a Threads card that reuses a Geopolitics number, for instance — so one correction reaches all of them. And the build enforces it: every registered figure must still appear, word for word, on the card that carries it. If a card's text drifts from the registry, or the registry is updated without the card, <strong>the build fails</strong> until the two agree.</p>
+    <p>Two kinds of figure are deliberately outside the registry. <strong>Self-updating</strong> ones — the Global Trends indicators and the country populations — are pulled live from the World Bank whenever the decks are rebuilt, so there is nothing to re-check by hand. And <strong>stable historical facts</strong> are left unregistered on purpose: they do not churn. Both are listed at the end of the page.</p>
+  </div>
+
+  <div id="sources"><div class="skel"><i></i><i></i><i></i></div></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <nav class="footlinks"><a href="about.html">About</a><a href="sources.html">Sources &amp; verification</a><a href="credits.html">Credits &amp; licences</a></nav>
+  The registry is exported from the same verification script that gates every rebuild of the decks. Status is computed against today's date.
+  <p class="credit">Data: CIA World Factbook 2024 (public domain) via the World Factbook Archive · World Bank (CC BY 4.0) · Flags: Flagpedia.net · Maps: Natural Earth, SVG-World-Map, d3 · Portraits: Wikimedia Commons, credited per image · <a href="credits.html">Credits &amp; licences</a></p>
+</div></footer>
+<script src="app.js"></script>
+</body>
+</html>

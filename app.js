@@ -752,7 +752,7 @@ async function initCountry() {
 async function initPerson() {
   const el = document.getElementById("person");
   const name = new URLSearchParams(location.search).get("n") || "";
-  const [cd, links, ports] = await Promise.all([getCards(), getLinks(), getPortraits()]);
+  const [cd, links, ports, creds] = await Promise.all([getCards(), getLinks(), getPortraits(), getCredits()]);
   const people = (cd.fields.find(f => f.name === "People") || { cards: [] }).cards;
   const idx = people.findIndex(c => c.front.split(" — ")[0] === name);
   if (idx < 0) {
@@ -766,6 +766,12 @@ async function initPerson() {
   const col = PEOPLE_COLORS[p.section] || "var(--accent)";
   const initials = name.split(/\s+/).filter(w => /^[A-ZÀ-Þ]/.test(w)).slice(0, 2).map(w => w[0]).join("") || name[0];
   const wiki = port.url || `https://en.wikipedia.org/wiki/${encodeURIComponent(name.replace(/ /g, "_"))}`;
+  // portrait credit (data/credits.json): creator + licence for attribution-required
+  // files, the licence alone for public-domain ones; always a link to the file
+  const cr = (creds.portraits || {})[name];
+  const pcredit = port.img && cr ? `<div class="pcredit">Portrait: ${cr.attribution_required
+      ? `${esc(cr.artist || "Unknown author")} · <a href="${esc(cr.licence_url)}" target="_blank" rel="license noopener">${esc(cr.licence)}</a>`
+      : esc(cr.licence || "public domain")} · <a href="${esc(cr.file_page)}" target="_blank" rel="noopener">Wikimedia Commons ↗</a></div>` : "";
 
   const homes = (p.home || []).map(iso =>
     `<a class="chip" href="country.html?iso=${esc(iso)}">${esc((links.isoNames || {})[iso] || iso.toUpperCase())}</a>`).join("");
@@ -802,6 +808,7 @@ async function initPerson() {
         <div class="sub">${esc(role)}${p.dates ? ` · ${esc(p.dates)}` : ""}${p.region ? ` · ${esc(p.region)}` : ""}</div>
         <div class="sub2"><span class="pbadge">${esc(p.section)}</span>
           <a href="${esc(wiki)}" target="_blank" rel="noopener">Wikipedia ↗</a></div>
+        ${pcredit}
       </div>
     </div>
     <p class="lead">${linkify(esc(p.back))}</p>
@@ -1373,6 +1380,15 @@ async function getPortraits() {
   }
   return PORTRAITS;
 }
+let CREDITS = null;  // name -> {file, file_page, licence, licence_url, artist, attribution_required} (enrich_credits.py)
+async function getCredits() {
+  if (!CREDITS) {
+    try { CREDITS = await (await fetch("data/credits.json")).json(); }
+    catch { CREDITS = { portraits: {} }; }
+    if (!CREDITS.portraits) CREDITS.portraits = {};
+  }
+  return CREDITS;
+}
 // Wrap country mentions in (already-escaped) text with links to their pages.
 function linkify(escaped) {
   if (!NAME_RE) return escaped;
@@ -1507,11 +1523,162 @@ function initThemeToggle() {
   nav.appendChild(btn);
 }
 
+/* ---------- sources & verification (sources.html) ---------- */
+// Renders data/sources.json — the verification registry exported from
+// ../audit.py by build_web.py: every churning figure with its source, edition,
+// last-verified date, re-check cadence and the deck/card it lives in. Status is
+// computed here against today's date, so a deployed page keeps telling the
+// truth as time passes.
+async function initSources() {
+  const root = document.getElementById("sources");
+  let data;
+  try {
+    const res = await fetch("data/sources.json");
+    if (!res.ok) throw new Error("Could not load data/sources.json");
+    data = await res.json();
+  } catch (e) {
+    root.innerHTML = `<div class="empty">${esc(e.message)}<br>Run <code>py build_web.py</code> first.</div>`;
+    return;
+  }
+  const ym = (s) => { const [y, m] = String(s).split("-").map(Number); return new Date(y, m - 1, 1); };
+  const now = new Date();
+  const monthsSince = (s) => (now.getFullYear() - ym(s).getFullYear()) * 12 + (now.getMonth() - ym(s).getMonth());
+  const fmt = (s) => ym(s).toLocaleDateString("en", { month: "short", year: "numeric" });
+  const status = (e) => {
+    const f = monthsSince(e.verified) / e.cadence_months;
+    return f >= data.stale_at ? "due" : f >= data.aging_at ? "aging" : "current";
+  };
+  const LABEL = { current: "Current", aging: "Re-check soon", due: "Re-check due" };
+  const counts = { current: 0, aging: 0, due: 0 };
+  data.entries.forEach(e => counts[status(e)]++);
+  const latest = data.entries.map(e => e.verified).sort().pop();
+  const nextDue = data.entries.map(e => e.due).sort()[0];
+
+  const tiles = `<div class="tiles">
+    <div class="tile"><div class="tile-top"><span class="tlbl">Registered figures</span></div>
+      <div class="tnum">${data.count}</div><div class="tsub">across ${data.fields.length} fields</div></div>
+    <div class="tile"><div class="tile-top"><span class="tlbl">Last verified</span></div>
+      <div class="tnum">${esc(fmt(latest))}</div><div class="tsub">registry exported ${esc(data.generated)}</div></div>
+    <div class="tile"><div class="tile-top"><span class="tlbl">Next re-check</span></div>
+      <div class="tnum">${esc(fmt(nextDue))}</div><div class="tsub">earliest figure due</div></div>
+    <div class="tile"><div class="tile-top"><span class="tlbl">Status today</span></div>
+      <div class="tnum">${counts.due ? counts.due + " due" : counts.aging ? counts.aging + " aging" : "All current"}</div>
+      <div class="tsub">${counts.current} current · ${counts.aging} aging · ${counts.due} due</div></div>
+  </div>`;
+
+  const entry = (e) => {
+    const st = status(e);
+    const cards = e.cards.length ? `<div class="src-cards">${e.cards.map(c =>
+      `<a class="chip" href="${esc(c.href)}"><span class="chip-f">${esc(c.deck || c.field)}</span>${esc(c.title)}</a>`).join("")}</div>` : "";
+    return `<article class="src" style="--fc:${(FIELD_META[e.field] || {}).color || "var(--accent)"}">
+      <div class="src-top"><span class="src-id">${esc(e.field)} · figure ${e.id}</span>
+        <span class="pill ${st}">${LABEL[st]}</span></div>
+      <p class="src-fig">${esc(e.figure)}</p>
+      <dl class="src-meta">
+        <dt>Source</dt><dd>${esc(e.source)}</dd>
+        <dt>Edition checked</dt><dd>${esc(e.edition)}</dd>
+        <dt>Verified</dt><dd>${esc(fmt(e.verified))} · re-checked every ${e.cadence_months} months · next due ${esc(fmt(e.due))}</dd>
+        <dt>Lives in</dt><dd>${esc(e.where_card)}${cards}</dd>
+        ${e.echoes.length ? `<dt>Echoed in</dt><dd><ul>${e.echoes.map(x => `<li>${esc(x)}</li>`).join("")}</ul></dd>` : ""}
+      </dl>
+    </article>`;
+  };
+
+  const groups = data.fields.map(f => {
+    const es = data.entries.filter(e => e.field === f);
+    const m = FIELD_META[f] || {};
+    return `<h2 class="section-title" style="--fc:${m.color || "var(--accent)"}">${esc(f)}</h2>
+      <p class="section-sub">${es.length} registered figure${es.length === 1 ? "" : "s"}${m.desc ? " — " + esc(m.desc) : ""}</p>
+      <div class="srcs">${es.map(entry).join("")}</div>`;
+  }).join("");
+
+  const live = `<h2 class="section-title">Self-updating sources</h2>
+    <p class="section-sub">Not in the registry because nothing needs re-checking by hand: these figures are pulled live when the deck is rebuilt.</p>
+    <div class="srcs">${data.self_updating.map(x => `<article class="src" style="--fc:${(FIELD_META[x.field] || FIELD_META_HIDDEN[x.field] || {}).color || "var(--accent)"}">
+      <div class="src-top"><span class="src-id">${esc(x.field)}</span><span class="pill live">Live on rebuild</span></div>
+      <p class="src-fig">${esc(x.what)}</p>
+      <dl class="src-meta"><dt>Source</dt><dd>${esc(x.source)}</dd><dt>How</dt><dd>${esc(x.how)}</dd></dl>
+    </article>`).join("")}</div>
+    <h2 class="section-title">Deliberately unregistered</h2>
+    <p class="section-sub">${esc(data.unregistered)}</p>`;
+
+  root.innerHTML = tiles + groups + live;
+}
+
+/* ---------- credits & licences (credits.html) ---------- */
+// Renders the portrait credit list from data/credits.json — per file, the
+// licence, creator and file page read from Wikimedia Commons by
+// enrich_credits.py. Files whose licence requires attribution are listed one
+// by one (creator · licence · link to the file); the rest are counted.
+async function initCredits() {
+  const root = document.getElementById("credits");
+  let data;
+  try {
+    const res = await fetch("data/credits.json");
+    if (!res.ok) throw new Error("Could not load data/credits.json");
+    data = await res.json();
+  } catch (e) {
+    root.innerHTML = `<div class="empty">${esc(e.message)}<br>Run <code>py enrich_credits.py</code> first.</div>`;
+    return;
+  }
+  const ports = await getPortraits();
+  const all = Object.entries(data.portraits || {});
+  const need = all.filter(([, c]) => c.attribution_required);
+  const row = ([name, c]) => `<div class="credit-row">
+      ${(ports[name] || {}).img ? `<img src="${esc(ports[name].img)}" alt="" loading="lazy">` : `<span class="cr-blank"></span>`}
+      <div><a class="cr-name" href="person.html?n=${encodeURIComponent(name)}">${esc(name)}</a>
+        <div class="cr-meta">${esc(c.artist || "Unknown author")} · <a href="${esc(c.licence_url)}" rel="license">${esc(c.licence)}</a>
+          · <a href="${esc(c.file_page)}">file on Wikimedia Commons ↗</a></div></div>
+    </div>`;
+  const ogl = need.some(([, c]) => /^OGL/i.test(c.licence))
+    ? `<p>Contains public sector information licensed under the Open Government Licence v1.0.</p>` : "";
+  const rest = all.length - need.length;
+  root.innerHTML = `<p>${need.length} of the ${all.length} portraits are under licences that require attribution:</p>
+    <div class="credit-list">${need.map(row).join("")}</div>${ogl}
+    <p>The remaining ${rest} portraits are in the public domain or released without restrictions.
+      Licence data was read from Wikimedia Commons on ${esc(data.generated)}; files there can be replaced or
+      relicensed, so this list is regenerated whenever the portraits are.</p>`;
+}
+
+/* ---------- about (about.html) ---------- */
+// Fills the field counts from data/stats.json (read from the built decks at
+// build time) so the page never carries a stale number.
+async function initAbout() {
+  const root = document.getElementById("about");
+  let data;
+  try {
+    const res = await fetch("data/stats.json");
+    if (!res.ok) throw new Error("Could not load data/stats.json");
+    data = await res.json();
+  } catch (e) {
+    root.querySelectorAll("[data-count]").forEach(el => el.textContent = "—");
+    return;
+  }
+  const n = (x) => Number(x || 0).toLocaleString("en-US");
+  data.fields.forEach(f => {
+    const el = root.querySelector(`[data-count="${CSS.escape(f.name)}"]`);
+    if (!el) return;
+    const noun = el.dataset.noun || "entries";
+    const parts = [`${n(f.cards)} cards`];
+    if (f.name === "Geography") parts.push(`${n(f.countries)} countries`, `${n(f.apkg_files)} decks`);
+    else if (f.notes !== f.cards) parts.push(`${n(f.notes)} ${noun}`);  // one card per note -> say it once
+    el.textContent = parts.join(" · ");
+  });
+  root.querySelectorAll("[data-total]").forEach(el => {
+    const k = el.dataset.total;
+    el.textContent = n(k === "decks" ? data.totals.apkg_files : data.totals[k]);
+  });
+  root.querySelectorAll("[data-registry]").forEach(el => el.textContent = n(data.registry.figures));
+}
+
 if (document.getElementById("grid")) initIndex();
 else if (document.getElementById("detail")) initCountry();
 else if (document.getElementById("person")) initPerson();
 else if (document.getElementById("dtable")) initExplore();
 else if (document.getElementById("cards")) initFields();
+else if (document.getElementById("sources")) initSources();
+else if (document.getElementById("credits")) initCredits();
+else if (document.getElementById("about")) initAbout();
 initSearch();
 initThemeToggle();
 initMobileNav();

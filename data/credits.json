@@ -1,0 +1,1565 @@
+{
+ "generated": "2026-09-04",
+ "source": "Wikimedia Commons file metadata (MediaWiki API, prop=imageinfo, extmetadata)",
+ "count": 173,
+ "attribution_required": 33,
+ "portraits": {
+  "Hammurabi": {
+   "file": "F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "artist": "Mbzt",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Cyrus the Great": {
+   "file": "Cyrus_II_(The_Great)_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Cyrus_II_(The_Great)_(cropped).jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Surenae",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Ashoka": {
+   "file": "Ashoka's_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg",
+   "licence": "CC BY 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by/2.0",
+   "artist": "Photo Dharma from Sadao, Thailand",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Qin Shi Huang": {
+   "file": "QinShiHuang19century.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:QinShiHuang19century.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown (18??–18??)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Alexander the Great": {
+   "file": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Julius Caesar": {
+   "file": "Retrato_de_Julio_César_(26724093101)_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Ángel M. Felicísimo from Mérida, España",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Augustus": {
+   "file": "Augustus_of_Prima_Porta.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Justin Benttinen",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Cleopatra": {
+   "file": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Louis le Grand",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Constantine the Great": {
+   "file": "Statua_di_Costantino_ai_musei_capitolini.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Statua_di_Costantino_ai_musei_capitolini.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Merulana",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Charlemagne": {
+   "file": "Charlemagne_denier_Mayence_812_814.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Charlemagne. Autorité émettrice de monnaie indéterminé. Atelier monétaire. Émetteur",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Genghis Khan": {
+   "file": "YuanEmperorAlbumGenghisPortrait.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Kublai Khan": {
+   "file": "YuanEmperorAlbumKhubilaiPortrait.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumKhubilaiPortrait.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Araniko",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Mansa Musa": {
+   "file": "Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "attributed to Abraham Cresques",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Saladin": {
+   "file": "Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_Æ_Dirham_(30.1mm,_13.28_g,_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing,_cross-legged,_on_high-backed_throne_(obverse).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_%C3%86_Dirham_(30.1mm,_13.28_g,_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing,_cross-legged,_on_high-backed_throne_(obverse).jpg",
+   "licence": "CC BY-SA 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+   "artist": "Classical Numismatic Group (CNG)",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Suleiman the Magnificent": {
+   "file": "EmperorSuleiman.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:EmperorSuleiman.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Circle of Titian",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Akbar the Great": {
+   "file": "Govardhan._Akbar_With_Lion_and_Calf_ca._1630,_Metmuseum_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Govardhan._Akbar_With_Lion_and_Calf_ca._1630,_Metmuseum_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Govardhan / Mir Ali Heravi",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Elizabeth I": {
+   "file": "Darnley_stage_3.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Darnley_stage_3.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unidentified painter",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Louis XIV": {
+   "file": "Louis_XIV_of_France.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Louis_XIV_of_France.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Hyacinthe Rigaud",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Peter the Great": {
+   "file": "Inconnu_d'après_J.-M._Nattier,_Portrait_de_Pierre_Ier_(musée_de_l’Ermitage).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Attributed to Jean-Marc Nattier",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Catherine the Great": {
+   "file": "Catherine_II_after_Roslin,_Rokotov_(1780s,_Kunsthistorisches_Museum).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Catherine_II_after_Roslin,_Rokotov_(1780s,_Kunsthistorisches_Museum).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "After Alexander Roslin",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Napoleon Bonaparte": {
+   "file": "Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Jacques-Louis David",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Otto von Bismarck": {
+   "file": "Otto_von_Bismarck_1885_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Otto_von_Bismarck_1885_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Abraham Lincoln": {
+   "file": "Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Alexander Gardner",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Queen Victoria": {
+   "file": "Queen_Victoria_by_Bassano.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Alexander Bassano",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Mustafa Kemal Atatürk": {
+   "file": "Portret_van_de_Turkse_leider_Mustafa_Kemal_Ataturk_(Atatürk_Kemal_Pascha)_(1881-1938)_in_westers,_SFA003017837.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portret_van_de_Turkse_leider_Mustafa_Kemal_Ataturk_(Atat%C3%BCrk_Kemal_Pascha)_(1881-1938)_in_westers,_SFA003017837.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "George Washington": {
+   "file": "Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Gilbert Stuart",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Toussaint Louverture": {
+   "file": "Toussaint_Louverture_-_Girardin.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Toussaint_Louverture_-_Girardin.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Alexandre-François-Louis, comte de Girardin",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Simón Bolívar": {
+   "file": "Simón_Bolívar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Luis Enrique Toro Moreno (1897-1933)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Giuseppe Garibaldi": {
+   "file": "Garibaldi_(1866).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Garibaldi_(1866).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Fratelli Alinari",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Sun Yat-sen": {
+   "file": "孙中山肖像.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "上海波尔照相馆",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Vladimir Lenin": {
+   "file": "Lenin_in_1920_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Lenin_in_1920_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown, presumably official",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Mahatma Gandhi": {
+   "file": "Mahatma-Gandhi,_studio,_1931.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Elliott & Fry",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Mao Zedong": {
+   "file": "Mao_Zedong_1950_Portrait_(3x4_cropped)(2).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_1950_Portrait_(3x4_cropped)(2).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Chen Zhengqing (1917–1966)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Ho Chi Minh": {
+   "file": "Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Kwame Nkrumah": {
+   "file": "Kwame_Nkrumah_Portrait,_The_National_Archives_UK.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Portrait,_The_National_Archives_UK.jpg",
+   "licence": "OGL v1.0",
+   "licence_url": "http://NationalArchives.gov.uk/doc/open-government-licence/version/1/",
+   "artist": "The National Archives UK - Flickr account",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Gamal Abdel Nasser": {
+   "file": "Stevan_Kragujevic,_Gamal_Abdel_Naser_u_Beogradu,_1962.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Stevan_Kragujevic,_Gamal_Abdel_Naser_u_Beogradu,_1962.jpg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "artist": "Stevan Kragujević",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Fidel Castro": {
+   "file": "Fidel_Castro_1950s.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Fidel_Castro_1950s.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown (Mondadori Publishers)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Che Guevara": {
+   "file": "Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Alberto Korda, restored by Adam Cuerden",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Ayatollah Khomeini": {
+   "file": "Ruhollah_Khomeini_by_Jamaran_1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ruhollah_Khomeini_by_Jamaran_1.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Different",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Nelson Mandela": {
+   "file": "Nelson_Mandela_1994.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "artist": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Martin Luther King Jr.": {
+   "file": "Martin_Luther_King,_Jr..jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr..jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Bernie Faingold",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Pythagoras": {
+   "file": "Pythagoras_in_the_Roman_Forum,_Colosseum.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pythagoras_in_the_Roman_Forum,_Colosseum.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Heraclitus": {
+   "file": "Heraclitus_b_4_compressed.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Heraclitus_b_4_compressed.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "RoyFokker",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Confucius": {
+   "file": "Confucius_Tang_Dynasty.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Confucius_Tang_Dynasty.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Wu Daozi, 685-758, Tang Dynasty",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Laozi": {
+   "file": "Laozi_(Chinese_characters).svg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Laozi_(Chinese_characters).svg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "White whirlwind",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Socrates": {
+   "file": "Socrates_Louvre.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Copy of Lysippos (?)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Plato": {
+   "file": "Plato_Silanion_Musei_Capitolini_MC1377.png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Marie-Lan Nguyen",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Aristotle": {
+   "file": "Aristotle_Altemps_Inv8575.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "After Lysippos",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Diogenes": {
+   "file": "Diogenes_Mosaic_Römisch-Germanisches_Museum.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Diogenes_Mosaic_R%C3%B6misch-Germanisches_Museum.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Epicurus": {
+   "file": "Epikouros_BM_1843.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Epikouros_BM_1843.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown artist",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Zeno of Citium": {
+   "file": "Paolo_Monti_-_Servizio_fotografico_(Napoli,_1969)_-_BEIC_6353768.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_(Napoli,_1969)_-_BEIC_6353768.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Paolo Monti",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Seneca": {
+   "file": "Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "artist": "Calidius",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Epictetus": {
+   "file": "Epicteti_Enchiridion_Latinis_versibus_adumbratum_(Oxford_1715)_frontispiece_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Epicteti_Enchiridion_Latinis_versibus_adumbratum_(Oxford_1715)_frontispiece_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "William Sonmans / Michael Burghers",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Marcus Aurelius": {
+   "file": "MSR-ra-61-b-1-DM.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:MSR-ra-61-b-1-DM.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Daniel Martin",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Augustine of Hippo": {
+   "file": "Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Philippe de Champaigne",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Avicenna (Ibn Sina)": {
+   "file": "Avicenna_Bust,_left_profile_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Avicenna_Bust,_left_profile_(cropped).jpg",
+   "licence": "No restrictions",
+   "licence_url": "https://www.flickr.com/commons/usage/",
+   "artist": "National Library of Medicine",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Averroes (Ibn Rushd)": {
+   "file": "Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d'aquino,_11_averroè.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d%27aquino,_11_averro%C3%A8.jpg",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "artist": "Sailko",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Maimonides": {
+   "file": "Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Blaisio Ugolino",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Thomas Aquinas": {
+   "file": "St-thomas-aquinasFXD.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Carlo Crivelli",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Erasmus": {
+   "file": "Holbein-erasmus.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Holbein-erasmus.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Hans Holbein the Younger",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Niccolò Machiavelli": {
+   "file": "Portrait_of_Niccolò_Machiavelli_by_Santi_di_Tito.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Santi di Tito",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Michel de Montaigne": {
+   "file": "Portrait_of_Michel_de_Montaigne,_circa_unknown.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Michel_de_Montaigne,_circa_unknown.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Francis Bacon": {
+   "file": "Somer_Francis_Bacon.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Thomas Hobbes": {
+   "file": "Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "John Michael Wright",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "René Descartes": {
+   "file": "Frans_Hals_-_Portret_van_René_Descartes.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "After Frans Hals",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Baruch Spinoza": {
+   "file": "Spinoza.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "anonymous",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "John Locke": {
+   "file": "Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Godfrey Kneller",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Gottfried Leibniz": {
+   "file": "Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Christoph Bernhard Francke",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Montesquieu": {
+   "file": "Charles_Montesquieu.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Charles_Montesquieu.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "After Jacques-Antoine Dassier",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Voltaire": {
+   "file": "Nicolas_de_Largillière_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_musée_Carnavalet_-_5_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_(cropped).jpg",
+   "licence": "CC0",
+   "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "artist": "Nicolas de Largillière",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "David Hume": {
+   "file": "David_Hume_Ramsay.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:David_Hume_Ramsay.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Allan Ramsay",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Jean-Jacques Rousseau": {
+   "file": "Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Maurice Quentin de La Tour (Life time: 1788)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Immanuel Kant": {
+   "file": "Immanuel_Kant_-_Gemaelde_1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Johann Gottlieb Becker (1720-1782)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Adam Smith": {
+   "file": "Adam_Smith_The_Muir_portrait.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "G. W. F. Hegel": {
+   "file": "Jakob_Schlesinger_-_Hegel_1831.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Jakob Schlesinger",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Arthur Schopenhauer": {
+   "file": "Arthur_Schopenhauer_by_J_Schäfer,_1859b.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Johann Schäfer",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Søren Kierkegaard": {
+   "file": "Søren_Kierkegaard_(1813-1855)_-_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "La Biblioteca Real de Dinamarca",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Karl Marx": {
+   "file": "Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored_&_Adjusted_(3x4_cropped_b).png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored_%26_Adjusted_(3x4_cropped_b).png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "John Jabez Edwin Mayall",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "John Stuart Mill": {
+   "file": "John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "London Stereoscopic Company",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Friedrich Nietzsche": {
+   "file": "Nietzsche187a.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Friedrich Hermann Hartmann",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Oswald Spengler": {
+   "file": "Oswald_Spengler.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Oswald_Spengler.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Unknown author",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Sigmund Freud": {
+   "file": "Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Max Halberstadt",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Ludwig Wittgenstein": {
+   "file": "Ludwig_Wittgenstein_1929.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ludwig_Wittgenstein_1929.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Moritz Nähr",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Jean-Paul Sartre": {
+   "file": "Jean_Paul_Sartre_1965.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
+   "licence": "CC BY-SA 3.0 nl",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+   "artist": "Unknown author",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Hannah Arendt": {
+   "file": "Hannah_Arendt_auf_dem_1._Kulturkritikerkongress,_Barbara_Niggl_Radloff,_FM-2019-1-5-9-16_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Hannah_Arendt_auf_dem_1._Kulturkritikerkongress,_Barbara_Niggl_Radloff,_FM-2019-1-5-9-16_(cropped).jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Barbara Niggl Radloff",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Euclid": {
+   "file": "Italian_-_Euclid_-_Google_Art_Project.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Italian_-_Euclid_-_Google_Art_Project.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Jusepe de Ribera (Spanish / Italian, 1591 - 1652) (1591 - 1652) – artist (Spanish / Italian) Details on Google Art Project",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Archimedes": {
+   "file": "Domenico-Fetti_Archimedes_1620.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Domenico Fetti",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Ibn al-Haytham": {
+   "file": "Ibn_al-Haytham_crop.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ibn_al-Haytham_crop.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Adolph Boÿ, engraved by Jeremias Falck. Used as the frontispiece to Johannes Hevelius, Selenographia, 1647",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Nicolaus Copernicus": {
+   "file": "Nikolaus_Kopernikus_MOT.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Johannes Kepler": {
+   "file": "JKepler.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:JKepler.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "August Köhler [1]",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Galileo Galilei": {
+   "file": "Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Justus Sustermans",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Isaac Newton": {
+   "file": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Godfrey Kneller",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Antoine Lavoisier": {
+   "file": "David_-_Portrait_of_Monsieur_Lavoisier_(cropped)2.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_(cropped)2.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Jacques-Louis David",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Michael Faraday": {
+   "file": "Michael_Faraday_sitting_crop.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Michael_Faraday_sitting_crop.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Charles Darwin": {
+   "file": "Charles_Darwin_seated_crop.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Charles_Darwin_seated.jpg: Henry Maull (1829–1914) and John Fox (1832–1907) (Maull & Fox) [ 3 ] derivative work: Bea o",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Louis Pasteur": {
+   "file": "Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Paul Nadar",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Gregor Mendel": {
+   "file": "Gregor_Mendel_2.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "James Clerk Maxwell": {
+   "file": "James-Clerk-Maxwell-1831-1879.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Marie Curie": {
+   "file": "Marie_Curie_c._1920s.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Henri Manuel",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Albert Einstein": {
+   "file": "Albert_Einstein_Head_cleaned.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Oren Jack Turner",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Niels Bohr": {
+   "file": "Niels_Bohr.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "The American Institute of Physics credits the photo [1] to AB Lagrelius & Westphal, which is the Swedish company used by the Nobel Foundation for most photos of its book series Les Prix Nobel",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Werner Heisenberg": {
+   "file": "Werner_Heisenberg_Portrait_(3x4_cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Werner_Heisenberg_Portrait_(3x4_cropped).jpg",
+   "licence": "CC BY-SA 3.0 de",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+   "artist": "Unknown author",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Nikola Tesla": {
+   "file": "Tesla_circa_1890.jpeg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Napoleon Sarony",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Thomas Edison": {
+   "file": "Thomas_Edison2.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Alan Turing": {
+   "file": "Alan_turing_header.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Elliott & Fry",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Watson, Crick & Franklin": {
+   "file": "Francis_Crick_crop.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Francis_Crick_crop.jpg",
+   "licence": "CC BY 2.5",
+   "licence_url": "https://creativecommons.org/licenses/by/2.5",
+   "artist": "Marc Lieberman (photograph); derivative work by Materialscientist",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Norman Borlaug": {
+   "file": "Norman_Borlaug,_2004_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug,_2004_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Ben Zinner, USAID",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Tim Berners-Lee": {
+   "file": "Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
+   "licence": "CC BY 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0",
+   "artist": "Summit",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Moses": {
+   "file": "Rembrandt_Harmensz._van_Rijn_079.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_079.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Rembrandt",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Buddha (Siddhartha Gautama)": {
+   "file": "Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "artist": "Tevaprapas Makklay (พระมหาเทวประภาส วชิรญาณเมธี)",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Jesus of Nazareth": {
+   "file": "Spas_vsederzhitel_sinay_(cropped1).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay_(cropped1).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown artist",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Muhammad": {
+   "file": "Al-Masjid_AL-Nabawi_Door.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Al-Masjid_AL-Nabawi_Door.jpg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "artist": "بلال الدويك",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Martin Luther": {
+   "file": "Lucas_Cranach_d.Ä._-_Martin_Luther,_1528_(Veste_Coburg).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Lucas Cranach the Elder",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "John Calvin": {
+   "file": "John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:John_Calvin_Museum_Catharijneconvent_RMCC_s84_cropped.png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Anonymous (France)",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Guru Nanak": {
+   "file": "Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Amritpal Singh Mann. Painted by Jaimal Singh Naqqash (1860–1916), Mehtab Singh Naqqash (1871–1940), and Hukum Singh",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Mother Teresa": {
+   "file": "Mother_Teresa_1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg",
+   "licence": "CC BY-SA 2.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "artist": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "The 14th Dalai Lama": {
+   "file": "The_Dalai_Lama_in_2012.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:The_Dalai_Lama_in_2012.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Christopher Michel",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Giotto": {
+   "file": "Giotto,_Santa_Maria_Novella.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Giotto,_Santa_Maria_Novella.jpg",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "artist": "Sailko",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Filippo Brunelleschi": {
+   "file": "Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "scan uploaded by Sailko, cropped by MenkinAlRire",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Donatello": {
+   "file": "Donatello,_miracolo_della_mula,_1446-49_ca._(pd,_museo_antoniano)_37_uomo_che_si_allontana,_forse_autoritratto_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Donatello,_miracolo_della_mula,_1446-49_ca._(pd,_museo_antoniano)_37_uomo_che_si_allontana,_forse_autoritratto_(cropped).jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Francesco Bini",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Sandro Botticelli": {
+   "file": "Sandro_Botticelli_083.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_083.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Sandro Botticelli",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Leonardo da Vinci": {
+   "file": "Francesco_Melzi_-_Portrait_of_Leonardo.png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo.png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Attributed to Francesco Melzi",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Michelangelo": {
+   "file": "Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Attributed to Daniele da Volterra",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Raphael": {
+   "file": "Raffaello_Sanzio.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Raphael",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Titian": {
+   "file": "Titian_-_Self-portrait_(Museo_del_Prado).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Titian_-_Self-portrait_(Museo_del_Prado).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Titian",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Pico della Mirandola": {
+   "file": "Pico1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pico1.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Cristofano dell'Altissimo",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "The Medici": {
+   "file": "Augmented_Arms_of_Medici.svg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Augmented_Arms_of_Medici.svg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "artist": "Heralder",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Petrarch": {
+   "file": "Portrait_of_Francesco_Petrarca_(called_Petrarch)_-_French_school,_17th_century.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Francesco_Petrarca_(called_Petrarch)_-_French_school,_17th_century.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Giorgio Vasari": {
+   "file": "Zucchi,_Jacopo_-_Vasari,_Giorgio_-_Uffizi_ICCD.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Zucchi,_Jacopo_-_Vasari,_Giorgio_-_Uffizi_ICCD.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Attributed to Jacopo Zucchi",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Andrea Palladio": {
+   "file": "Andrea_Palladio2.jpeg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Andrea_Palladio2.jpeg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Alessandro Maganza",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Jan van Eyck": {
+   "file": "Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait?)_1433.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait%3F)_1433.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Jan van Eyck",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Albrecht Dürer": {
+   "file": "Dürer_Alte_Pinakothek.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Albrecht Dürer",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Pieter Bruegel the Elder": {
+   "file": "Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer,_ca._1566_-_Google_Art_Project.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer,_ca._1566_-_Google_Art_Project.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Pieter Brueghel the Elder",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Caravaggio": {
+   "file": "Bild-Ottavio_Leoni,_Caravaggio.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Ottavio Leoni",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Rembrandt": {
+   "file": "Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Rembrandt",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Johannes Vermeer": {
+   "file": "Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Johannes Vermeer",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Francisco Goya": {
+   "file": "Vicente_López_Portaña_-_el_pintor_Francisco_de_Goya.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Vicente López Portaña",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "J. M. W. Turner": {
+   "file": "Joseph_Mallord_William_Turner_auto-retrato.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_auto-retrato.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "J. M. W. Turner",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Claude Monet": {
+   "file": "Claude_Monet_1899_Nadar_crop.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Nadar",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Vincent van Gogh": {
+   "file": "Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Vincent van Gogh",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Pablo Picasso": {
+   "file": "Pablo_picasso_1.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Argentina. Revista Vea y Lea",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Homer": {
+   "file": "Homer_At_the_British_Museum_2024_(3x4_cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Homer_At_the_British_Museum_2024_(3x4_cropped).jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Photograph by Mike Peel (www.mikepeel.net)",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Virgil": {
+   "file": "Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Boyd Dwyer",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Dante Alighieri": {
+   "file": "Bargello_-_Kapelle_Fresko_2a.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Bargello_-_Kapelle_Fresko_2a.jpg",
+   "licence": "CC BY-SA 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "artist": "Wolfgang Sauber",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Geoffrey Chaucer": {
+   "file": "Chaucer_manuscrit_portrait_(détail).jpeg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Chaucer_manuscrit_portrait_(d%C3%A9tail).jpeg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Miguel de Cervantes": {
+   "file": "Cervantes_Jáuregui.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Attributed to Juan de Jáuregui",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "William Shakespeare": {
+   "file": "William_Shakespeare_by_John_Taylor,_edited.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Attributed to John Taylor",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "John Milton": {
+   "file": "John_Milton_Christ's_College.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:John_Milton_Christ%27s_College.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Mary Beale or Peter Lely",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Molière": {
+   "file": "Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Molière_(1622-1673)_-_Google_Art_Project_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_(1622-1673)_-_Google_Art_Project_(cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Pierre Mignard I",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Johann Wolfgang von Goethe": {
+   "file": "Goethe_(Stieler_1828).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Joseph Karl Stieler",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Jane Austen": {
+   "file": "CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Cassandra Austen",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Victor Hugo": {
+   "file": "Victor_Hugo_by_Étienne_Carjat_1876_-_full.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Étienne Carjat",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Charles Dickens": {
+   "file": "Dickens_Gurney_head.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Jeremiah Gurney",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Leo Tolstoy": {
+   "file": "Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Sergei Prokudin-Gorskii",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Fyodor Dostoevsky": {
+   "file": "Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Vasily Perov",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Mark Twain": {
+   "file": "Mark_Twain_by_AF_Bradley_(cropped_2).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley_(cropped_2).jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "A.F. Bradley, New York",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "James Joyce": {
+   "file": "Revolutionary_Joyce_Better_Contrast.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Revolutionary_Joyce_Better_Contrast.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Johann Sebastian Bach": {
+   "file": "Johann_Sebastian_Bach.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Elias Gottlob Haussmann",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Wolfgang Amadeus Mozart": {
+   "file": "The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Johann Nepomuk della Croce",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Ludwig van Beethoven": {
+   "file": "Joseph_Karl_Stieler's_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Joseph Karl Stieler",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Frédéric Chopin": {
+   "file": "Frederic_Chopin_photo.jpeg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_photo.jpeg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Louis-Auguste Bisson",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Richard Wagner": {
+   "file": "RichardWagner.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Franz Hanfstaengl",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Giuseppe Verdi": {
+   "file": "Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Ferdinand Mulnier",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Zheng He": {
+   "file": "2016_Malakka,_Stadhuys_(09).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:2016_Malakka,_Stadhuys_(09).jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Marcin Konsek",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Marco Polo": {
+   "file": "Frontispice_édition_de_Nuremberg_1477_(cropped).png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Frontispice_%C3%A9dition_de_Nuremberg_1477_(cropped).png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Ibn Battuta": {
+   "file": "Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Léon Benett",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Christopher Columbus": {
+   "file": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Sebastiano del Piombo",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Vasco da Gama": {
+   "file": "Ignoto_portoghese,_ritratto_di_un_cavaliere_dell'ordine_di_cristo,_1525-50_ca._02.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ignoto_portoghese,_ritratto_di_un_cavaliere_dell%27ordine_di_cristo,_1525-50_ca._02.jpg",
+   "licence": "CC BY 3.0",
+   "licence_url": "https://creativecommons.org/licenses/by/3.0",
+   "artist": "Sailko",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "Ferdinand Magellan": {
+   "file": "Ferdinand_Magellan.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Unknown author",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "James Cook": {
+   "file": "Captainjamescookportrait.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Nathaniel Dance-Holland",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Johannes Gutenberg": {
+   "file": "Mainz_Gutenbergdenkmal_2016_(cropped).jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Mainz_Gutenbergdenkmal_2016_(cropped).jpg",
+   "licence": "CC BY-SA 4.0",
+   "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "artist": "Kenneth C. Zirkel",
+   "attribution_required": true,
+   "allowed": true
+  },
+  "James Watt": {
+   "file": "Watt_James_von_Breda.jpg",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Watt_James_von_Breda.jpg",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Carl Frederik von Breda",
+   "attribution_required": false,
+   "allowed": true
+  },
+  "Henry Ford": {
+   "file": "Henry_Ford_portrait_1915_original_(3x4_cropped).png",
+   "file_page": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png",
+   "licence": "Public domain",
+   "licence_url": "",
+   "artist": "Ford Motor Company. Photographic Department",
+   "attribution_required": false,
+   "allowed": true
+  }
+ }
+}

@@ -18,7 +18,7 @@ import requests
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 OUT = DATA / "portraits.json"
-UA = {"User-Agent": "WorldLiteracyAtlas/0.1 (personal research atlas; yago@cultormedia.com)"}
+UA = {"User-Agent": "WorldLiteracyAtlas/0.1 (https://projectimpero.github.io/world-literacy-atlas/)"}
 
 
 # deck name -> Wikipedia title, where guessing fails (disambiguation, groups)

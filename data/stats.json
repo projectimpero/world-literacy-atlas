@@ -1,0 +1,201 @@
+{
+ "generated": "2026-09-04",
+ "deck_root": "World Literacy",
+ "fields": [
+  {
+   "name": "Geography",
+   "countries": 196,
+   "regions": 19,
+   "notes": 650,
+   "cards": 2568,
+   "apkg_files": 20,
+   "decks": [
+    "Geography::Caribbean",
+    "Geography::Caribbean::Region Overview",
+    "Geography::Central Africa",
+    "Geography::Central Africa::Region Overview",
+    "Geography::Central America",
+    "Geography::Central America::Region Overview",
+    "Geography::Central Asia",
+    "Geography::Central Asia::Region Overview",
+    "Geography::East Africa",
+    "Geography::East Africa::Region Overview",
+    "Geography::East Asia",
+    "Geography::East Asia::Region Overview",
+    "Geography::Eastern Europe",
+    "Geography::Eastern Europe::Region Overview",
+    "Geography::Middle East",
+    "Geography::Middle East::Region Overview",
+    "Geography::North Africa",
+    "Geography::North Africa::Region Overview",
+    "Geography::North America",
+    "Geography::North America::Region Overview",
+    "Geography::Northern Europe",
+    "Geography::Northern Europe::Region Overview",
+    "Geography::Oceania",
+    "Geography::Oceania::Region Overview",
+    "Geography::South America",
+    "Geography::South America::Region Overview",
+    "Geography::South Asia",
+    "Geography::South Asia::Region Overview",
+    "Geography::Southeast Asia",
+    "Geography::Southeast Asia::Region Overview",
+    "Geography::Southeast Europe",
+    "Geography::Southeast Europe::Region Overview",
+    "Geography::Southern Africa",
+    "Geography::Southern Africa::Region Overview",
+    "Geography::West Africa",
+    "Geography::West Africa::Region Overview",
+    "Geography::Western Europe",
+    "Geography::Western Europe::Region Overview",
+    "Geography::World"
+   ],
+   "kind": "atlas"
+  },
+  {
+   "name": "History",
+   "kind": "cards",
+   "notes": 115,
+   "cards": 388,
+   "apkg_files": 3,
+   "decks": [
+    "History::The Ancient World (to 500 CE)",
+    "History::The Ancient World (to 500 CE)::Overview",
+    "History::The Medieval World (500–1500)",
+    "History::The Medieval World (500–1500)::Overview",
+    "History::The Modern World (1900–today)",
+    "History::The Modern World (1900–today)::Overview"
+   ],
+   "sections": [
+    "Ancient Asia & the Silk Road",
+    "Byzantium & Christendom",
+    "Collisions & the Turn",
+    "Decolonisation",
+    "Empires & World Wars",
+    "Faiths & Ideas",
+    "Greece & Persia",
+    "Overview",
+    "Rome",
+    "The 21st Century",
+    "The Cold War",
+    "The East",
+    "The End of the Cold War",
+    "The First Civilisations",
+    "The Islamic World",
+    "The Post-war Order",
+    "Wider Worlds"
+   ]
+  },
+  {
+   "name": "People",
+   "kind": "cards",
+   "notes": 174,
+   "cards": 522,
+   "apkg_files": 1,
+   "decks": [
+    "History::People::Explorers & Enterprise",
+    "History::People::Faith & Moral Leaders",
+    "History::People::Philosophers & Thinkers",
+    "History::People::Renaissance & Visual Art",
+    "History::People::Revolutionaries & Founders",
+    "History::People::Rulers & Empire-builders",
+    "History::People::Scientists & Inventors",
+    "History::People::Writers & Composers"
+   ],
+   "sections": [
+    "Explorers & Enterprise",
+    "Faith & Moral Leaders",
+    "Philosophers & Thinkers",
+    "Renaissance & Visual Art",
+    "Revolutionaries & Founders",
+    "Rulers & Empire-builders",
+    "Scientists & Inventors",
+    "Writers & Composers"
+   ]
+  },
+  {
+   "name": "Economics",
+   "kind": "cards",
+   "notes": 50,
+   "cards": 50,
+   "apkg_files": 1,
+   "decks": [
+    "Economics::Big Ideas",
+    "Economics::Crises & Bubbles",
+    "Economics::Macroeconomics",
+    "Economics::Markets & Instruments",
+    "Economics::Money & Banking"
+   ],
+   "sections": [
+    "Big Ideas",
+    "Crises & Bubbles",
+    "Macroeconomics",
+    "Markets & Instruments",
+    "Money & Banking"
+   ]
+  },
+  {
+   "name": "Geopolitics",
+   "kind": "cards",
+   "notes": 37,
+   "cards": 37,
+   "apkg_files": 1,
+   "decks": [
+    "Geopolitics::Energy",
+    "Geopolitics::Hard Power",
+    "Geopolitics::Technology",
+    "Geopolitics::Trade & Seas"
+   ],
+   "sections": [
+    "Energy",
+    "Hard Power",
+    "Technology",
+    "Trade & Seas"
+   ]
+  },
+  {
+   "name": "Global Trends",
+   "kind": "cards",
+   "notes": 15,
+   "cards": 26,
+   "apkg_files": 1,
+   "decks": [
+    "Global Trends",
+    "Global Trends::The Factfulness Lens"
+   ],
+   "sections": [
+    "Indicators",
+    "Overview"
+   ]
+  },
+  {
+   "name": "Threads",
+   "kind": "cards",
+   "notes": 35,
+   "cards": 35,
+   "apkg_files": 1,
+   "decks": [
+    "Threads::Fault Lines",
+    "Threads::Long Arcs",
+    "Threads::Places",
+    "Threads::The 1945 Order"
+   ],
+   "sections": [
+    "Fault Lines",
+    "Long Arcs",
+    "Places",
+    "The 1945 Order"
+   ]
+  }
+ ],
+ "totals": {
+  "notes": 1076,
+  "cards": 3626,
+  "apkg_files": 28,
+  "fields": 7
+ },
+ "registry": {
+  "figures": 30,
+  "generated": "2026-09-04"
+ }
+}

@@ -1,0 +1,1137 @@
+{
+ "generated": "2026-09-04",
+ "count": 30,
+ "aging_at": 0.75,
+ "stale_at": 1.0,
+ "fields": [
+  "Geopolitics",
+  "Economics",
+  "Threads"
+ ],
+ "entries": [
+  {
+   "id": 1,
+   "field": "Geopolitics",
+   "figure": "~12,200 warheads; Russia ~5,400 / US ~5,000 (~86%); China ~600 (+~100/yr, ~1,000 by 2030); FR ~290, UK ~225 (Threads quotes SIPRI's Jan-2026 ~620 for China)",
+   "source": "FAS Status of World Nuclear Forces / SIPRI Yearbook",
+   "edition": "FAS Status of World Nuclear Forces 2026; SIPRI Yearbook 2026 (Jan 2026 figures)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — nuclear-states + two-holders cards",
+   "where_card": "nuclear-states + two-holders cards",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: China four-acts card (~620 of ~12,200, fastest-growing arsenal)",
+    "Threads: China / Russia / UK / France place cards (warhead counts)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Hard Power",
+     "section": "Hard Power",
+     "title": "Two countries hold the overwhelming majority of the world's nuclear warheads — which, and which is rising fast…",
+     "href": "fields.html?f=Geopolitics&q=Two%20countries%20hold%20the%20overwhelming%20majo"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Hard Power",
+     "section": "Hard Power",
+     "title": "Which nine states possess nuclear weapons?",
+     "href": "fields.html?f=Geopolitics&q=Which%20nine%20states%20possess%20nuclear%20weapon"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Long Arcs",
+     "section": "Long Arcs",
+     "title": "How did China go from the 'century of humiliation' to superpower within one lifetime? (four acts)",
+     "href": "fields.html?f=Threads&q=How%20did%20China%20go%20from%20the%20%27century%20of%20hu"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What does the United Kingdom still hold now the empire is gone — and what did it give up in 2020? (four residu…",
+     "href": "fields.html?f=Threads&q=What%20does%20the%20United%20Kingdom%20still%20hold%20"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes China the only peer rival to the United States — and what is its clock? (the base, the engine, the …",
+     "href": "fields.html?f=Threads&q=What%20makes%20China%20the%20only%20peer%20rival%20to%20"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes France a great power on a mid-sized economy — and where is that status now shrinking? (three multip…",
+     "href": "fields.html?f=Threads&q=What%20makes%20France%20a%20great%20power%20on%20a%20mid"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "field": "Geopolitics",
+   "figure": "US $954bn (2025, ~2.8x next), China ~$336bn, Russia ~$190bn, Germany ~$114bn, India ~$92bn; top5 ~58% of ~$2.9tn (11th straight annual rise)",
+   "source": "SIPRI Military Expenditure Database (April release)",
+   "edition": "SIPRI Milex fact sheet, April 2026 (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — biggest-spenders card",
+   "where_card": "biggest-spenders card",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: WWII-losers card (Germany top-five spender)",
+    "Threads: United States place card ($954 bn of $2,887 bn; a third of world spending)",
+    "Threads: Germany place card (fourth-largest spender, $114 bn)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Hard Power",
+     "section": "Hard Power",
+     "title": "Who are the world's biggest military spenders?",
+     "href": "fields.html?f=Geopolitics&q=Who%20are%20the%20world%27s%20biggest%20military%20spe"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "How did Germany become Europe's indispensable economy — and why is its model under strain? (the trade it made,…",
+     "href": "fields.html?f=Threads&q=How%20did%20Germany%20become%20Europe%27s%20indispen"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "Why is the United States the only full-spectrum superpower — and what is the live question about it? (the hand…",
+     "href": "fields.html?f=Threads&q=Why%20is%20the%20United%20States%20the%20only%20full-s"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::The 1945 Order",
+     "section": "The 1945 Order",
+     "title": "Why did the two countries that LOST World War II become economic superpowers? (who needed them, and what they …",
+     "href": "fields.html?f=Threads&q=Why%20did%20the%20two%20countries%20that%20LOST%20Worl"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "field": "Geopolitics",
+   "figure": "largest armed forces: China ~2 million active, India ~1.5 million, then US / North Korea / Russia ~1.1–1.5 million each (order varies by source)",
+   "source": "IISS Military Balance (annual, ~February)",
+   "edition": "IISS Military Balance 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — armed-forces card",
+   "where_card": "armed-forces card",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Geopolitics/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Hard Power",
+     "section": "Hard Power",
+     "title": "Which countries have the largest armed forces by number of personnel?",
+     "href": "fields.html?f=Geopolitics&q=Which%20countries%20have%20the%20largest%20armed%20f"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "field": "Geopolitics",
+   "figure": "NATO = 32 members as of 2026 (Finland 2023, Sweden 2024)",
+   "source": "nato.int member list",
+   "edition": "nato.int member list (2026)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — NATO card",
+   "where_card": "NATO card",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Geography World capstone — NATO card (generate_v2.py)",
+    "Geography Northern Europe overview — blocs line + recent-joiners card (generate_v2.py)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Geography/anki-build/generate_v2.py"
+   ],
+   "in_atlas": [
+    "Geopolitics"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Hard Power",
+     "section": "Hard Power",
+     "title": "What is NATO, and what makes it work?",
+     "href": "fields.html?f=Geopolitics&q=What%20is%20NATO%2C%20and%20what%20makes%20it%20work%3F"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "field": "Geopolitics",
+   "figure": "electricity 2025: renewables ~34% overtook coal ~33%; gas ~22%; fossil ~58%; clean ~43% (hydro ~14%, nuclear ~9%, wind and solar ~8–9% each); solar met ~75% of new demand",
+   "source": "Ember Global Electricity Review (annual, ~April)",
+   "edition": "Ember Global Electricity Review 2026 (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — electricity-mix + energy-transition cards",
+   "where_card": "electricity-mix + energy-transition cards",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: climate-map card (transition accelerating)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "What is the 'energy transition', and where does it stand?",
+     "href": "fields.html?f=Geopolitics&q=What%20is%20the%20%27energy%20transition%27%2C%20and%20whe"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Where does the world's electricity actually come from?",
+     "href": "fields.html?f=Geopolitics&q=Where%20does%20the%20world%27s%20electricity%20actua"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Fault Lines",
+     "section": "Fault Lines",
+     "title": "How does the climate fight redraw the geopolitical map? (who gains leverage, who loses)",
+     "href": "fields.html?f=Threads&q=How%20does%20the%20climate%20fight%20redraw%20the%20ge"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "field": "Geopolitics",
+   "figure": "top oil producers: US #1 (~13.6 mb/d crude, shale), then Russia and Saudi Arabia ~9.5–10 mb/d; top LNG exporters: US, Qatar, Australia; largest proven reserves: Venezuela ahead of Saudi Arabia",
+   "source": "EIA international energy statistics; OPEC Annual Statistical Bulletin (reserves)",
+   "edition": "EIA International Energy Statistics (2025 data); OPEC ASB 2025 (2024 reserves)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — oil-producers, oil-reserves + gas cards",
+   "where_card": "oil-producers, oil-reserves + gas cards",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: Venezuela place card (proven-reserves ranking)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Which country has the largest proven oil reserves — and is it the biggest producer?",
+     "href": "fields.html?f=Geopolitics&q=Which%20country%20has%20the%20largest%20proven%20oil"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Who are the world's top oil producers?",
+     "href": "fields.html?f=Geopolitics&q=Who%20are%20the%20world%27s%20top%20oil%20producers%3F"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Why is natural gas more of a geopolitical lever than oil — and who are the big players?",
+     "href": "fields.html?f=Geopolitics&q=Why%20is%20natural%20gas%20more%20of%20a%20geopolitica"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "Venezuela sits on the world's largest proven oil reserves. Why is it poor? (the mechanism)",
+     "href": "fields.html?f=Threads&q=Venezuela%20sits%20on%20the%20world%27s%20largest%20pr"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "field": "Geopolitics",
+   "figure": "Hormuz: ~20 million barrels a day, roughly a fifth of world oil",
+   "source": "EIA World Oil Transit Chokepoints",
+   "edition": "EIA World Oil Transit Chokepoints (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — Hormuz card",
+   "where_card": "Hormuz card",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: Iran card (fifth of world oil, ~20 mb/d)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Which country has the largest proven oil reserves — and is it the biggest producer?",
+     "href": "fields.html?f=Geopolitics&q=Which%20country%20has%20the%20largest%20proven%20oil"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Which single waterway is the world's most important oil chokepoint?",
+     "href": "fields.html?f=Geopolitics&q=Which%20single%20waterway%20is%20the%20world%27s%20mos"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Who are the world's top oil producers?",
+     "href": "fields.html?f=Geopolitics&q=Who%20are%20the%20world%27s%20top%20oil%20producers%3F"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Energy",
+     "section": "Energy",
+     "title": "Why is natural gas more of a geopolitical lever than oil — and who are the big players?",
+     "href": "fields.html?f=Geopolitics&q=Why%20is%20natural%20gas%20more%20of%20a%20geopolitica"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Fault Lines",
+     "section": "Fault Lines",
+     "title": "Why is Iran at the centre of so many crises at once? (four layers)",
+     "href": "fields.html?f=Threads&q=Why%20is%20Iran%20at%20the%20centre%20of%20so%20many%20cri"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "field": "Geopolitics",
+   "figure": "Shanghai #1 port ~55M TEU; 6 of top-10 ports in mainland China, Hong Kong ~12th; goods exporters: China ~$3.6tn, US ~$2.1tn, then Germany",
+   "source": "World Shipping Council / port statistics (ports); WTO (goods exports)",
+   "edition": "World Shipping Council top-50 ports (2025 data); WTO World Trade Statistics (2024 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — busiest-ports + biggest-exporters cards",
+   "where_card": "busiest-ports + biggest-exporters cards",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: China four-acts card (biggest exporter, six of the ten busiest ports)",
+    "Threads: China place card (biggest goods exporter)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Trade & Seas",
+     "section": "Trade & Seas",
+     "title": "What are the world's busiest container ports?",
+     "href": "fields.html?f=Geopolitics&q=What%20are%20the%20world%27s%20busiest%20container%20p"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Trade & Seas",
+     "section": "Trade & Seas",
+     "title": "Who are the world's biggest exporters of goods?",
+     "href": "fields.html?f=Geopolitics&q=Who%20are%20the%20world%27s%20biggest%20exporters%20of"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Long Arcs",
+     "section": "Long Arcs",
+     "title": "How did China go from the 'century of humiliation' to superpower within one lifetime? (four acts)",
+     "href": "fields.html?f=Threads&q=How%20did%20China%20go%20from%20the%20%27century%20of%20hu"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes China the only peer rival to the United States — and what is its clock? (the base, the engine, the …",
+     "href": "fields.html?f=Threads&q=What%20makes%20China%20the%20only%20peer%20rival%20to%20"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "field": "Geopolitics",
+   "figure": "TSMC ~90% of leading-edge chips, ~70% of foundry; ASML 100% of EUV; China ~90% of rare-earth refining",
+   "source": "TrendForce foundry ranking / Counterpoint Research; IEA Global Critical Minerals Outlook",
+   "edition": "TrendForce (2025 data); IEA Global Critical Minerals Outlook 2025 (2024 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — Technology section",
+   "where_card": "Technology section",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [
+    "Threads: Taiwan card (~90%)",
+    "Threads: chip-war card (all four figures)",
+    "Threads: climate-map card (rare earths)"
+   ],
+   "files": [
+    "Geopolitics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Technology",
+     "section": "Technology",
+     "title": "One Dutch company is a choke point for the entire chip industry — which, and why?",
+     "href": "fields.html?f=Geopolitics&q=One%20Dutch%20company%20is%20a%20choke%20point%20for%20t"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Technology",
+     "section": "Technology",
+     "title": "Where are the world's most advanced computer chips made?",
+     "href": "fields.html?f=Geopolitics&q=Where%20are%20the%20world%27s%20most%20advanced%20comp"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Technology",
+     "section": "Technology",
+     "title": "Which country dominates 'rare earths' and critical minerals — and why does it matter?",
+     "href": "fields.html?f=Geopolitics&q=Which%20country%20dominates%20%27rare%20earths%27%20an"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Fault Lines",
+     "section": "Fault Lines",
+     "title": "How does the climate fight redraw the geopolitical map? (who gains leverage, who loses)",
+     "href": "fields.html?f=Threads&q=How%20does%20the%20climate%20fight%20redraw%20the%20ge"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Fault Lines",
+     "section": "Fault Lines",
+     "title": "Why are semiconductors called 'the new oil' — and who controls what? (four chokepoints)",
+     "href": "fields.html?f=Threads&q=Why%20are%20semiconductors%20called%20%27the%20new%20o"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "Why is Taiwan the world's most dangerous flashpoint? (three layers)",
+     "href": "fields.html?f=Threads&q=Why%20is%20Taiwan%20the%20world%27s%20most%20dangerous"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "field": "Geopolitics",
+   "figure": "most valuable companies: Nvidia (~$5tn) first, then Apple, Alphabet, Microsoft, Amazon, TSMC, Broadcom, Meta; Saudi Aramco the largest non-tech",
+   "source": "market caps (any current ranking, e.g. companiesmarketcap.com)",
+   "edition": "market caps 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Geopolitics/build/generate.py — most-valuable-companies card",
+   "where_card": "most-valuable-companies card",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Geopolitics/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Technology",
+     "section": "Technology",
+     "title": "Which companies are the world's most valuable — and what does that reveal?",
+     "href": "fields.html?f=Geopolitics&q=Which%20companies%20are%20the%20world%27s%20most%20val"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "field": "Geopolitics",
+   "figure": "Red Sea/Suez: transits ~70% below 2023 levels (Houthi attacks since late 2023); Suez carried 12–15% of world trade before the crisis; Cape detour ~10 days / ~6,000 km — still the live routing story",
+   "source": "UNCTAD Review of Maritime Transport / shipping press (situation may normalise or escalate)",
+   "edition": "UNCTAD Review of Maritime Transport 2025",
+   "verified": "2026-09",
+   "cadence_months": 6,
+   "due": "2027-03",
+   "where": "Geopolitics/build/generate.py — Suez / Bab-el-Mandeb / Cape cards",
+   "where_card": "Suez / Bab-el-Mandeb / Cape cards",
+   "generator": "Geopolitics/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Geopolitics/build/generate.py"
+   ],
+   "in_atlas": [
+    "Geopolitics"
+   ],
+   "cards": [
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Trade & Seas",
+     "section": "Trade & Seas",
+     "title": "When the Suez Canal is unusable, which long detour do ships take instead?",
+     "href": "fields.html?f=Geopolitics&q=When%20the%20Suez%20Canal%20is%20unusable%2C%20which%20l"
+    },
+    {
+     "field": "Geopolitics",
+     "deck": "Geopolitics::Trade & Seas",
+     "section": "Trade & Seas",
+     "title": "Why is the Suez Canal so important — and how fragile is it?",
+     "href": "fields.html?f=Geopolitics&q=Why%20is%20the%20Suez%20Canal%20so%20important%20%E2%80%94%20and"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "field": "Economics",
+   "figure": "US dollar ~57% of allocated FX reserves (Q1 2026)",
+   "source": "IMF COFER (quarterly)",
+   "edition": "IMF COFER Q1 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Economics/build/generate.py — reserve-currency card",
+   "where_card": "reserve-currency card",
+   "generator": "Economics/build/generate.py",
+   "echoes": [
+    "Threads: dollar-system card (~57%)"
+   ],
+   "files": [
+    "Economics/build/generate.py",
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Economics",
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Economics",
+     "deck": "Economics::Money & Banking",
+     "section": "Money & Banking",
+     "title": "What does it mean that the US dollar is the world's 'reserve currency'?",
+     "href": "fields.html?f=Economics&q=What%20does%20it%20mean%20that%20the%20US%20dollar%20is%20"
+    },
+    {
+     "field": "Threads",
+     "deck": "Threads::The 1945 Order",
+     "section": "The 1945 Order",
+     "title": "Why can the United States borrow almost without limit, sanction almost anyone, and print the world's money? (t…",
+     "href": "fields.html?f=Threads&q=Why%20can%20the%20United%20States%20borrow%20almost%20"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "field": "Economics",
+   "figure": "world GDP ~$110tn (2024)",
+   "source": "World Bank WDI / IMF WEO",
+   "edition": "World Bank WDI (2024 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Economics/build/generate.py — GDP card",
+   "where_card": "GDP card",
+   "generator": "Economics/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Economics/build/generate.py"
+   ],
+   "in_atlas": [
+    "Economics"
+   ],
+   "cards": [
+    {
+     "field": "Economics",
+     "deck": "Economics::Macroeconomics",
+     "section": "Macroeconomics",
+     "title": "What is GDP, and what does it measure?",
+     "href": "fields.html?f=Economics&q=What%20is%20GDP%2C%20and%20what%20does%20it%20measure%3F"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "field": "Economics",
+   "figure": "deposit insurance: FDIC $250,000; UK FSCS £120,000 (raised from £85,000 on 1 Dec 2025)",
+   "source": "FDIC / Bank of England-PRA",
+   "edition": "FDIC (2025); Bank of England / PRA deposit-protection limit effective 1 Dec 2025",
+   "verified": "2026-09",
+   "cadence_months": 18,
+   "due": "2028-03",
+   "where": "Economics/build/generate.py — deposit-insurance card",
+   "where_card": "deposit-insurance card",
+   "generator": "Economics/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Economics/build/generate.py"
+   ],
+   "in_atlas": [
+    "Economics"
+   ],
+   "cards": [
+    {
+     "field": "Economics",
+     "deck": "Economics::Money & Banking",
+     "section": "Money & Banking",
+     "title": "What is deposit insurance, and why does it make modern bank runs rare?",
+     "href": "fields.html?f=Economics&q=What%20is%20deposit%20insurance%2C%20and%20why%20does%20"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "field": "Threads",
+   "figure": "dollar challengers (yuan, BRICS talk) 'remain marginal so far'",
+   "source": "IMF COFER share trend",
+   "edition": "IMF COFER Q1 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — dollar-system card",
+   "where_card": "dollar-system card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::The 1945 Order",
+     "section": "The 1945 Order",
+     "title": "Why can the United States borrow almost without limit, sanction almost anyone, and print the world's money? (t…",
+     "href": "fields.html?f=Threads&q=Why%20can%20the%20United%20States%20borrow%20almost%20"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "field": "Threads",
+   "figure": "Germany 'already a top-five military spender'; Japan/Germany 'now rearming'",
+   "source": "SIPRI (with the Geopolitics spending card)",
+   "edition": "SIPRI Milex fact sheet, April 2026 (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — WWII-losers card",
+   "where_card": "WWII-losers card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::The 1945 Order",
+     "section": "The 1945 Order",
+     "title": "Why did the two countries that LOST World War II become economic superpowers? (who needed them, and what they …",
+     "href": "fields.html?f=Threads&q=Why%20did%20the%20two%20countries%20that%20LOST%20Worl"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "field": "Threads",
+   "figure": "world fertility ~4.7 (1960s) -> ~2.2 today — an echo of the self-updating Global Trends deck",
+   "source": "World Bank WDI, total fertility rate, world aggregate (re-fetched by Global Trends on rebuild)",
+   "edition": "World Bank WDI (2023 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — demographic-transition card",
+   "where_card": "demographic-transition card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [
+    "Global Trends: fertility card (live World Bank data — check the thread still matches)"
+   ],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Long Arcs",
+     "section": "Long Arcs",
+     "title": "What is the demographic transition — and where is each world region on it? (the mechanism and the map)",
+     "href": "fields.html?f=Threads&q=What%20is%20the%20demographic%20transition%20%E2%80%94%20and"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "field": "Threads",
+   "figure": "Panama's registry largest by ship count; Liberia larger by tonnage since 2022",
+   "source": "UNCTAD Review of Maritime Transport (fleet by flag)",
+   "edition": "UNCTAD Review of Maritime Transport 2025 (fleet at 1 January 2025)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Panama place card",
+   "where_card": "Panama place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "How does Panama — one small country — sit at the centre of world shipping twice over? (geography and law)",
+     "href": "fields.html?f=Threads&q=How%20does%20Panama%20%E2%80%94%20one%20small%20country%20%E2%80%94%20si"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "field": "Threads",
+   "figure": "Dubai: oil 'now a small share of its economy'",
+   "source": "Dubai Statistics Centre, GDP by economic activity",
+   "edition": "Dubai Statistics Centre (2023 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Gulf place card",
+   "where_card": "Gulf place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "How did the Gulf states turn oil into skylines, airlines and ports — and why the rush to diversify? (the mecha…",
+     "href": "fields.html?f=Threads&q=How%20did%20the%20Gulf%20states%20turn%20oil%20into%20sk"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "field": "Threads",
+   "figure": "United States: ~26% (about a quarter) of world GDP; about a third of world military spending; exports ~a tenth of GDP",
+   "source": "IMF WEO (April); SIPRI (April); World Bank WDI exports % of GDP",
+   "edition": "IMF WEO April 2026 (2025 estimates); SIPRI April 2026 (2025 data); World Bank WDI (2024 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — United States place card",
+   "where_card": "United States place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [
+    "Geopolitics: biggest-spenders card (the $954 bn figure — registered above)"
+   ],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "Why is the United States the only full-spectrum superpower — and what is the live question about it? (the hand…",
+     "href": "fields.html?f=Threads&q=Why%20is%20the%20United%20States%20the%20only%20full-s"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "field": "Threads",
+   "figure": "China: ~32% (about a third) of world manufacturing; ~17% (a sixth) of world GDP; population 1.405 bn, fourth straight fall in 2025 (-3.4 m)",
+   "source": "UNIDO International Yearbook of Industrial Statistics; IMF WEO; China NBS",
+   "edition": "UNIDO Yearbook 2025 (2024 data); IMF WEO April 2026 (2025 estimates); NBS (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — China place card",
+   "where_card": "China place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [
+    "Geopolitics: warhead + exporter cards (registered above)"
+   ],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes China the only peer rival to the United States — and what is its clock? (the base, the engine, the …",
+     "href": "fields.html?f=Threads&q=What%20makes%20China%20the%20only%20peer%20rival%20to%20"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "field": "Threads",
+   "figure": "Russia: ~2.2% (about 2%) of world GDP; hydrocarbons ~23% (about a quarter) of federal revenue in 2025, lowest in twenty years",
+   "source": "IMF WEO; Russian Ministry of Finance (via OIES)",
+   "edition": "IMF WEO April 2026 (2025 estimates); Russian Ministry of Finance / OIES (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Russia place card",
+   "where_card": "Russia place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "Why does Russia punch so far above its economic weight — and what keeps its behaviour so constant? (three asse…",
+     "href": "fields.html?f=Threads&q=Why%20does%20Russia%20punch%20so%20far%20above%20its%20e"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "field": "Threads",
+   "figure": "India: population ~1.46 bn; fastest-growing major economy ~6.5%/yr; ~3.3% (about a thirtieth) of world GDP",
+   "source": "UN World Population Prospects / UNFPA; IMF WEO",
+   "edition": "UNFPA State of World Population 2025 / UN WPP (2025); IMF WEO April 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — India place card",
+   "where_card": "India place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes India a great power in waiting — and what would turn 'waiting' into 'arrived'? (the endowment, the …",
+     "href": "fields.html?f=Threads&q=What%20makes%20India%20a%20great%20power%20in%20waitin"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "field": "Threads",
+   "figure": "Japan: fourth-largest economy; population falling ~900,000/yr (671,000 births vs 1.59 m deaths, 2025); defence ~2% of GDP",
+   "source": "IMF WEO; Japan MHLW vital statistics; Japan Ministry of Defense budget",
+   "edition": "IMF WEO April 2026; MHLW vital statistics (2025 data); MoD FY2025 budget",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Japan place card",
+   "where_card": "Japan place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes Japan a great power without an empire — and why is it quietly rearming? (three things)",
+     "href": "fields.html?f=Threads&q=What%20makes%20Japan%20a%20great%20power%20without%20a"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "field": "Threads",
+   "figure": "Germany: exports ~41% (two-fifths) of GDP; third-largest economy; GDP +0.2% in 2025 after two years of contraction; fourth-largest military spender (Russian gas 55% of imports in 2021 is historical)",
+   "source": "World Bank WDI; IMF WEO; Destatis; SIPRI",
+   "edition": "World Bank WDI (2024 data); IMF WEO April 2026; Destatis (2025 GDP); SIPRI April 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Germany place card",
+   "where_card": "Germany place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [
+    "Geopolitics: biggest-spenders card (Germany ~$114 bn — registered above)"
+   ],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "How did Germany become Europe's indispensable economy — and why is its model under strain? (the trade it made,…",
+     "href": "fields.html?f=Threads&q=How%20did%20Germany%20become%20Europe%27s%20indispen"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "field": "Threads",
+   "figure": "United Kingdom: London ~38% (37.8%) of global FX turnover; economy among the six largest",
+   "source": "BIS Triennial Central Bank Survey (next: 2028); IMF WEO",
+   "edition": "BIS Triennial Survey, April 2025; IMF WEO April 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — United Kingdom place card",
+   "where_card": "United Kingdom place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What does the United Kingdom still hold now the empire is gone — and what did it give up in 2020? (four residu…",
+     "href": "fields.html?f=Threads&q=What%20does%20the%20United%20Kingdom%20still%20hold%20"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "field": "Threads",
+   "figure": "France: nuclear ~68% of electricity (373 TWh); ~2.9% (about 3%) of world GDP; six former colonies ended its military presence 2022–25",
+   "source": "RTE annual review / Ember; IMF WEO",
+   "edition": "RTE annual review 2025 / Ember (2025 data); IMF WEO April 2026",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — France place card",
+   "where_card": "France place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes France a great power on a mid-sized economy — and where is that status now shrinking? (three multip…",
+     "href": "fields.html?f=Threads&q=What%20makes%20France%20a%20great%20power%20on%20a%20mid"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "field": "Threads",
+   "figure": "Spain: Spanish >600 m (636 m) speakers; ~97 m (96.8 m) tourists; renewables 55.5% of generation; unemployment ~10% (10.5%), the EU's highest; tourism 12.6% of GDP",
+   "source": "Instituto Cervantes; INE FRONTUR + tourism satellite account; Red Eléctrica; Eurostat",
+   "edition": "Instituto Cervantes 2025; INE (2025 arrivals; 2024 satellite account); REE (2025 data); Eurostat (2025)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Spain place card",
+   "where_card": "Spain place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes Spain matter beyond its size — and what is its chronic economic weakness? (three legacies and one n…",
+     "href": "fields.html?f=Threads&q=What%20makes%20Spain%20matter%20beyond%20its%20size%20"
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "field": "Threads",
+   "figure": "Brazil: Latin America's largest economy (~$2.3tn vs Mexico ~$1.8tn); ~58% of traded soybeans; top beef exporter; oil 3.8 (3.77) mb/d; ~60% of the Amazon",
+   "source": "IMF WEO; USDA WASDE / FAS; ANP; INPE",
+   "edition": "IMF WEO April 2026; USDA (2024/25 marketing year; 2025 beef); ANP (2025 data)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Brazil place card",
+   "where_card": "Brazil place card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Places",
+     "section": "Places",
+     "title": "What makes Brazil a giant that never quite arrives — and what does the world need from it? (the endowment, the…",
+     "href": "fields.html?f=Threads&q=What%20makes%20Brazil%20a%20giant%20that%20never%20qui"
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "field": "Threads",
+   "figure": "West Bank + Gaza: 'some five million Palestinians'",
+   "source": "Palestinian Central Bureau of Statistics population estimates",
+   "edition": "PCBS (2025)",
+   "verified": "2026-09",
+   "cadence_months": 12,
+   "due": "2027-09",
+   "where": "Threads/build/generate.py — Israel–Palestine card",
+   "where_card": "Israel–Palestine card",
+   "generator": "Threads/build/generate.py",
+   "echoes": [],
+   "files": [
+    "Threads/build/generate.py"
+   ],
+   "in_atlas": [
+    "Threads"
+   ],
+   "cards": [
+    {
+     "field": "Threads",
+     "deck": "Threads::Fault Lines",
+     "section": "Fault Lines",
+     "title": "Why has Israel–Palestine defied solution for over 75 years? (the layers)",
+     "href": "fields.html?f=Threads&q=Why%20has%20Israel%E2%80%93Palestine%20defied%20solution"
+    }
+   ]
+  }
+ ],
+ "self_updating": [
+  {
+   "field": "Global Trends",
+   "what": "every indicator (poverty, child mortality, life expectancy, fertility, literacy, electricity, internet, urbanisation, CO₂…)",
+   "source": "World Bank World Development Indicators, world aggregates",
+   "how": "re-fetched from the World Bank API on every rebuild of the deck"
+  },
+  {
+   "field": "Geography",
+   "what": "population figures on every country card, and the population rankings",
+   "source": "World Bank World Development Indicators (SP.POP.TOTL)",
+   "how": "re-fetched from the World Bank API on every rebuild of the deck"
+  }
+ ],
+ "unregistered": "Stable historical facts — Bretton Woods in 1944, the Nasdaq's dot-com fall, Madoff's $65 billion, the dates and outcomes of the History events — are deliberately not registered: they do not churn, so re-checking them on a cadence would be noise."
+}

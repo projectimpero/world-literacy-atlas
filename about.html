@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Literacy — About</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand"><a href="index.html" style="color:inherit">World Literacy</a></div>
+    <nav class="fields">
+      <a href="index.html">Atlas</a>
+      <a href="fields.html?f=History">History</a>
+      <a href="fields.html?f=People">People</a>
+      <a href="fields.html?f=Economics">Economics</a>
+      <a href="fields.html?f=Geopolitics">Geopolitics</a>
+      <a href="fields.html?f=Threads">Threads</a>
+      <a href="explore.html">Explore</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="fieldhead"><div class="fh" style="--fc:#3a5a7a">
+    <h1>About World Literacy</h1>
+    <p>A spaced-repetition system for practical fluency about the world — and this atlas, its reference layer.</p>
+  </div></div>
+
+  <div class="page" id="about">
+    <h2>What it is</h2>
+    <p class="lede">World Literacy is a set of flashcard decks for <a href="https://apps.ankiweb.net/">Anki</a> that teach the working knowledge an educated person is expected to have about the world: where every country is and what it runs on, the events and people that shaped history, the machinery of money and power, how the world is actually doing, and the threads that tie all of it together. Every card is built from authoritative, freely available data — the CIA World Factbook, the World Bank, Wikipedia and Wikidata, and primary sources such as SIPRI, the IMF and the IEA — by generators that keep each card to one idea, prefer magnitude to false precision, and teach structure and exception rather than isolated trivia. This website renders the same cards as a browsable atlas, so the system can be explored as well as drilled.</p>
+
+    <h2>The seven fields</h2>
+    <p>The system is organised into seven fields. Each is its own deck (or set of decks) under one shared <code>World Literacy</code> root in Anki, so you can study the whole system or one field at a time. Counts below are read from the built decks.</p>
+    <div class="fieldlist">
+      <a class="fieldrow" href="index.html" style="--fc:#5B8C9E">
+        <span class="fn">Geography</span>
+        <span class="fd"><em>Where</em> — every country: location, capital, flag, currency, population, economy, neighbours, plus regional and world overviews.</span>
+        <span class="fc" data-count="Geography">…</span></a>
+      <a class="fieldrow" href="fields.html?f=History" style="--fc:#3A6EA5">
+        <span class="fn">History</span>
+        <span class="fd"><em>When</em> — the events that shaped the world, from the first cities to today: what happened and why it mattered.</span>
+        <span class="fc" data-count="History" data-noun="events">…</span></a>
+      <a class="fieldrow" href="fields.html?f=People" style="--fc:#A23B72">
+        <span class="fn">People</span>
+        <span class="fd"><em>Who</em> — the figures you cannot be historically literate without: rulers, revolutionaries, thinkers, scientists, artists, explorers.</span>
+        <span class="fc" data-count="People" data-noun="figures">…</span></a>
+      <a class="fieldrow" href="fields.html?f=Economics" style="--fc:#3E8E5A">
+        <span class="fn">Economics</span>
+        <span class="fd">The conceptual machinery of money and the economy — banking, macroeconomics, markets, big ideas, crises and bubbles.</span>
+        <span class="fc" data-count="Economics">…</span></a>
+      <a class="fieldrow" href="fields.html?f=Geopolitics" style="--fc:#C0504D">
+        <span class="fn">Geopolitics</span>
+        <span class="fd">The hard machinery of power — weapons, energy, trade routes and chokepoints, chips.</span>
+        <span class="fc" data-count="Geopolitics">…</span></a>
+      <a class="fieldrow" href="fields.html?f=Global%20Trends" style="--fc:#7B6CB3">
+        <span class="fn">Global Trends</span>
+        <span class="fd">Calibration — how the world is actually doing on poverty, health, education and climate, from World Bank world aggregates.</span>
+        <span class="fc" data-count="Global Trends" data-noun="indicators">…</span></a>
+      <a class="fieldrow" href="fields.html?f=Threads" style="--fc:#B5527A">
+        <span class="fn">Threads</span>
+        <span class="fd">Synthesis — the stories that run across the other fields: places as lenses, long arcs, the 1945 order, today's fault lines.</span>
+        <span class="fc" data-count="Threads" data-noun="threads">…</span></a>
+    </div>
+    <p><span data-total="cards">…</span> cards across the seven fields, shipped as one Anki package.</p>
+
+    <h2>How it is meant to be used</h2>
+    <ol class="steps">
+      <li><strong>Study in Anki, on your phone.</strong> Import the decks once; from then on, a few minutes a day is enough. Anki schedules each card for the moment you are about to forget it, so the time goes where it is needed.</li>
+      <li><strong>Ten new cards a day.</strong> That pace keeps daily reviews to a comfortable size and takes you through the whole system in about a year. On a busy week, set new cards to zero and just clear the reviews.</li>
+      <li><strong>Follow the ordered path.</strong> Study in the recommended order rather than at random: the calibration figures and the world overview first, then the regions in order of global weight, with history and people interleaved along the way, and a country's map, capital and flag arriving together. The order is set once, in Anki's new-card queue, and the schedule takes care of the rest.</li>
+      <li><strong>Use this atlas as the reference layer.</strong> When a card raises a question, open the country here, follow its links into the events, people and threads that mention it, or search everything at once (<kbd>Ctrl K</kbd>). The atlas is for understanding; the decks are for remembering.</li>
+    </ol>
+
+    <h2>How it is built and verified</h2>
+    <p>Every deck is generated by code from its sources, never typed by hand. Each card has a stable identity, so re-importing an updated deck updates the cards in place and keeps your review history. Figures that go out of date — arsenals, budgets, market shares — are tracked in a verification registry: each one carries its source, the edition checked, the date it was verified and a re-check cadence, and the build fails if a card's text drifts from the registry. Indicators that move every year, such as the Global Trends figures and country populations, are pulled live from the World Bank on every rebuild. The full registry, with the card each figure lives on, is on the <a href="sources.html">Sources &amp; verification</a> page — <span data-registry>…</span> registered figures at the last build.</p>
+
+    <div class="cta" id="get-the-decks">
+      <h2>Get the decks</h2>
+      <p>The complete system ships as a single Anki package containing all seven fields, with flags and maps included. Import it once; later editions import on top of it and preserve your progress.</p>
+      <!-- PLACEHOLDER: replace the href below with the distribution link before publishing. -->
+      <a class="btn" href="#get-the-decks" id="getDecks">Get the decks</a>
+      <br><span class="placeholder">Placeholder — the distribution link goes here.</span>
+    </div>
+  </div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <nav class="footlinks"><a href="about.html">About</a><a href="sources.html">Sources &amp; verification</a><a href="credits.html">Credits &amp; licences</a></nav>
+  <p class="credit">Data: CIA World Factbook 2024 (public domain) via the World Factbook Archive · World Bank (CC BY 4.0) · Flags: Flagpedia.net · Maps: Natural Earth, SVG-World-Map, d3 · Portraits: Wikimedia Commons, credited per image · <a href="credits.html">Credits &amp; licences</a></p>
+</div></footer>
+<script src="app.js"></script>
+</body>
+</html>
